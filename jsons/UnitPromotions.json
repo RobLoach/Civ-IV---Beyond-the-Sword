@@ -1,0 +1,37 @@
+[
+	{
+		"name": "Range I",
+		"prerequisites": ["Combat II"],
+		"uniques": [
+			"[+1] Range"
+		],
+		"unitTypes": ["Fighter", "Bomber", "Helicopter"]
+	},
+	{
+		"name": "Range II",
+		"prerequisites": ["Range I"],
+		"uniques": [
+			"[+1] Range"
+		],
+		"unitTypes": ["Fighter", "Bomber", "Helicopter"]
+	},
+	{
+		"name": "Interception I",
+		"uniques": ["[+10]% chance to intercept air attacks"],
+		"unitTypes": ["Fighter", "Helicopter", "Bomber", "Ranged Gunpowder"]
+	},
+	{
+		"name": "Interception II",
+		"prerequisites": ["Interception I"],
+		"uniques": ["[+20]% chance to intercept air attacks"],
+		"unitTypes": ["Fighter", "Helicopter", "Bomber", "Ranged Gunpowder"]
+	},
+	{
+		"name": "Ace",
+		"prerequisites": ["Combat III"],
+		"uniques": [
+			"Damage taken from interception reduced by [+50]%" // +25% Evasion Chance
+		],
+		"unitTypes": ["Helicopter", "Fighter", "Bomber"]
+	}
+]
