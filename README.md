@@ -5,3 +5,7 @@
 ## Credits
 
 All images are from The Noun Project, Creative Commons, unless otherwise specified
+
+### Nations
+
+- [Goat](https://thenounproject.com/icon/goat-2621727/) by tezar tantular for Sumeria

@@ -33,5 +33,16 @@
 			"Damage taken from interception reduced by [+50]%" // +25% Evasion Chance
 		],
 		"unitTypes": ["Helicopter", "Fighter", "Bomber"]
+	},
+	{
+		"name": "Woodsman III",
+		"prerequisites": ["Woodsman II"],
+		"uniques": [
+			// TODO: +2 first strikes
+			"[+50]% Strength <when fighting in [Jungle] tiles> <when attacking>",
+			"[+50]% Strength <when fighting in [Forest] tiles> <when attacking>",
+			"All adjacent units heal [+1] HP when healing" // Heals units in the same tile extra 15%/turn
+		],
+		"unitTypes": ["Scout", "Sword", "Gunpowder"]
 	}
 ]
