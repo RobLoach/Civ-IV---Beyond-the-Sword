@@ -1,6 +1,6 @@
 {
-	"isBaseRuleset":true,
+	"isBaseRuleset": false,
 	"uniques": [
-		//"Mod requires [Civ IV]"
+		"Mod requires [Unciv IV mod]"
 	]
 }

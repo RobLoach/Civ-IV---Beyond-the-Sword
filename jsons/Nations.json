@@ -4,8 +4,8 @@
 		"name": "Portuguese",
 		"leaderName": "Joao II",
 
-		"outerColor": [48, 102, 53],
-		"innerColor": [216, 73, 69],
+		"outerColor": [38, 76, 39],
+		"innerColor": [225, 118, 115],
 		"uniques": ["Starts with [Fishing]", "Starts with [Mining]"],
 		"cities": [
             "Lisbon", "Oporto", "Guimarães", "Coimbra", "Évora", "Lagos", "Braga", "Leiria", "Faro", "Santarém", "Braganza",
