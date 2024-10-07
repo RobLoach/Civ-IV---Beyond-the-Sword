@@ -1,0 +1,26 @@
+[
+	{
+		"name": "Industrial Park",
+		"cost": 200,
+		"production": 2, // +1 free Engineer
+		"specialistSlots": {"Engineer": 2},
+        "uniques": [
+			"Provides [-2] [Health] <in this city>",
+			"Provides [-1] [Health] <in this city> <with [Coal]>",
+			"Provides [-1] [Health] <in this city> <with [Oil]>"
+		],
+		"requiredTech": "Industrialism",
+		"requiredBuilding": "Factory"
+	},
+
+	{
+		"name": "Public Transportation",
+		"cost": 150,
+        "uniques": [
+            "Provides [2] [Power] <in this city> <after adopting [Environmentalism]>",
+            "Provides [1] [Health] <in this city>",
+            "Provides [1] [Health] <in this city> <with [Oil]>"
+		],
+		"requiredTech": "Combustion"
+	}
+]
