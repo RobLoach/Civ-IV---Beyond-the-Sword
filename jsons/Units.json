@@ -1,0 +1,19 @@
+// TODO: Add units https://civilization.fandom.com/wiki/Civilization_IV:_Beyond_the_Sword#New_Units
+[
+	{
+		"name": "Ship of the Line",
+		"unitType": "Melee Water",
+		"strength": 8,
+		"movement": 3,
+		"cost": 120,
+		"requiredTech": "Astronomy",
+		"requiredResource": "Iron",
+		"uniques": [
+			"Can upgrade to [Destroyer]",
+			"Only available <after discovering [Military Science]>",
+			"Consumes [1] [Copper]",
+			"[+50]% Strength <vs [Frigate] units>"
+		],
+		"attackSound": "metalhit"
+	}
+]

@@ -3,6 +3,7 @@
 		"name": "Industrial Park",
 		"cost": 200,
 		"production": 2, // +1 free Engineer
+		"greatPersonPoints": {"Great Merchant": 3}, // +1 free Engineer
 		"specialistSlots": {"Engineer": 2},
         "uniques": [
 			"Provides [-2] [Health] <in this city>",
@@ -17,10 +18,31 @@
 		"name": "Public Transportation",
 		"cost": 150,
         "uniques": [
-            "Provides [2] [Power] <in this city> <after adopting [Environmentalism]>",
             "Provides [1] [Health] <in this city>",
-            "Provides [1] [Health] <in this city> <with [Oil]>"
+            "Provides [1] [Health] <in this city> <with [Oil]>",
+            "Provides [2] [Health] <in this city> <after adopting [Environmentalism]>"
 		],
 		"requiredTech": "Combustion"
+	},
+
+	{
+		"name": "Levee",
+		"cost": 180,
+		"uniques": [
+			"Must be on [River]",
+			"[+1 Production] from [River] tiles [in this city]"
+		],
+		"requiredTech": "Steam Power"
+	},
+
+	{
+		"name": "Customs House",
+		"requiredBuilding": "Harbor",
+		"cost": 180,
+		"uniques": [
+			"[+1 Gold] from each Trade Route", // +100% commerce from intercontinental foreign trade routes
+			"Only available <in [Coastal] cities>"
+		],
+		"requiredTech": "Economics"
 	}
 ]

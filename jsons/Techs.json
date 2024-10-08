@@ -1,0 +1,17 @@
+// TODO: https://civilization.fandom.com/wiki/Civilization_IV:_Beyond_the_Sword#New_Technologies
+
+[
+	{
+		"columnNumber": 12,
+		"era": "Industrial era",
+		"techs": [
+			{
+				"name": "Military Science",
+				"row": 11,
+				"cost": 2000,
+				"prerequisites": ["Chemistry"],
+				"quote": "'I must study politics and war that my sons may have liberty to study mathematics and philosophy.' - John Adams"
+			}
+		]
+	}
+]
