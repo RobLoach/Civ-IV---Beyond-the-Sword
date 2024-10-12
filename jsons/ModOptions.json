@@ -1,6 +1,7 @@
 {
 	"isBaseRuleset": false,
 	"uniques": [
-		"Mod requires [Unciv IV mod]"
+		"Mod requires [Unciv IV mod]",
+		"Cannot be used as permanent audiovisual mod"
 	]
 }
