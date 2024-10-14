@@ -4,8 +4,8 @@
 		"name": "Portugal",
 		"leaderName": "Joao II",
 
-		"outerColor": [35, 79, 30],
-		"innerColor": [200, 46, 36],
+		"outerColor": [26, 59, 22],
+		"innerColor": [213, 98, 90],
 		"uniques": [
 			"Starts with [Fishing]", "Starts with [Mining]"
 		],
