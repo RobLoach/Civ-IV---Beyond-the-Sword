@@ -9,3 +9,4 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 ### Nations
 
 - [Goat](https://thenounproject.com/icon/goat-2621727/) by tezar tantular for Sumeria
+- [Shield](https://thenounproject.com/icon/shield-7204824/) by Rini Bahtiar for Portugal

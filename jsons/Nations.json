@@ -1,12 +1,14 @@
 // TODO: Add the civs https://civilization.fandom.com/wiki/Civilization_IV:_Beyond_the_Sword#New_Civilizations
 [
 	{
-		"name": "Portuguese",
+		"name": "Portugal",
 		"leaderName": "Joao II",
 
-		"outerColor": [38, 76, 39],
-		"innerColor": [225, 118, 115],
-		"uniques": ["Starts with [Fishing]", "Starts with [Mining]"],
+		"outerColor": [35, 79, 30],
+		"innerColor": [200, 46, 36],
+		"uniques": [
+			"Starts with [Fishing]", "Starts with [Mining]"
+		],
 		"cities": [
             "Lisbon", "Oporto", "Guimarães", "Coimbra", "Évora", "Lagos", "Braga", "Leiria", "Faro", "Santarém", "Braganza",
             "Sagres", "Aveiro", "Viseu", "Tomar", "Cintra", "Portalegre", "Abrantes", "Guarda", "Chaves", "Elvas", "Covilhã",
@@ -20,7 +22,7 @@
 		"leaderName": "Gilgamesh",
 
 		"outerColor": [76,0,153],
-		"innerColor": [255,128,0],
+		"innerColor": [254, 125, 20],
 		"uniques": ["Starts with [Agriculture]", "Starts with [The Wheel]"],
 		"cities": ["Uruk", "Eridu", "Kish", "Lagash", "Ur", "Nibru", "Bad-Tibira", "Zimbir", "Shuruppak", "Umma", "Larsa", "Isin",
 		"Girsu", "Adab", "Zabalam", "Akshak", "Larak", "Kisiga", "Nina", "Dilbat", "Kutu", "Marad", "Enegi", "Abu Salabikh",
