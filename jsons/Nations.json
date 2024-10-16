@@ -8,7 +8,19 @@
 		"innerColor": [250, 205, 17],
 		"uniques": [
 			"Starts with [The Wheel]",
-			"Starts with [Agriculture]"
+			"Starts with [Agriculture]",
+
+			"Comment [Aggressive]",
+			"All newly-trained [Sword] units [in your cities] receive the [Combat I] promotion",
+			"All newly-trained [Gunpowder] units [in your cities] receive the [Combat I] promotion",
+			"[+100]% Production when constructing [Barracks] buildings [in your cities]",
+			"[+100]% Production when constructing [Drydock] buildings [in your cities]",
+
+			"Comment [Organized]",
+			"[+1 Gold] [in your cities]", // TODO: Civic upkeep reduced by 50 %
+			"[+100]% Production when constructing [Lighthouse] buildings [in your cities]",
+			"[+100]% Production when constructing [Factory] buildings [in your cities]",
+			"[+100]% Production when constructing [Courthouse] buildings [in your cities]"
 		],
 		"cities": [
 			"Babylon",
@@ -64,7 +76,15 @@
 		"outerColor": [103, 100, 104],
 		"innerColor": [247, 188, 5],
 		"uniques": [
-			"Starts with [The Wheel]", "Starts with [Mysticism]"
+			"Starts with [The Wheel]", "Starts with [Mysticism]",
+
+			"Comment [Spiritual]",
+			// There is no anarchy when changing a civic
+			"[+100]% Production when constructing [Temple] buildings [in your cities]",
+
+			"Comment [Imperialistic]",
+			"[Great General] is earned [+100]% faster <if [Civ IV Warlords] is enabled>",
+			"[+100]% Production when constructing [Settler] units [in your cities]"
 		],
 		"cities": [
 			"Constantinople",
@@ -123,6 +143,16 @@
 		"innerColor": [27, 90, 50],
 		"uniques": [
 			"Starts with [Hunting]", "Starts with [Mining]"
+
+			"Comment [Creative]",
+			"[+100]% Production when constructing [Theatre] buildings [in your cities]",
+			"[+100]% Production when constructing [Colosseum] buildings [in your cities]",
+
+			"Comment [Organized]",
+			"[+1 Gold] [in your cities]", // TODO: Civic upkeep reduced by 50 %
+			"[+100]% Production when constructing [Lighthouse] buildings [in your cities]",
+			"[+100]% Production when constructing [Factory] buildings [in your cities]",
+			"[+100]% Production when constructing [Courthouse] buildings [in your cities]"
 		],
 		"cities": [
 			"Aksum",
@@ -180,7 +210,19 @@
 		"outerColor": [222, 207, 67],
 		"innerColor": [46, 43, 45],
 		"uniques": [
-			"Starts with [Hunting]", "Starts with [Mysticism]"
+			"Starts with [Hunting]", "Starts with [Mysticism]",
+
+			"Comment [Imperialistic]",
+			"[Great General] is earned [+100]% faster <if [Civ IV Warlords] is enabled>",
+			"[+100]% Production when constructing [Settler] units [in your cities]",
+
+			"Comment [Protective]",
+			"All newly-trained [Archery] units [in your cities] receive the [Drill I] promotion",
+			"All newly-trained [Gunpowder] units [in your cities] receive the [Drill I] promotion",
+			"All newly-trained [Archery] units [in your cities] receive the [City Garrison I] promotion",
+			"All newly-trained [Gunpowder] units [in your cities] receive the [City Garrison I] promotion",
+			"[+100]% Production when constructing [Walls] buildings [in your cities]",
+			"[+100]% Production when constructing [Castle] buildings [in your cities]"
 		],
 		"cities": [
 			"Aachen",
@@ -239,7 +281,17 @@
 		"outerColor": [16, 45, 152],
 		"innerColor": [229, 99, 103],
 		"uniques": [
-			"Starts with [Hunting]", "Starts with [Mining]"
+			"Starts with [Hunting]", "Starts with [Mining]",
+
+			"Comment [Creative]",
+			"[+100]% Production when constructing [Theatre] buildings [in your cities]",
+			"[+100]% Production when constructing [Colosseum] buildings [in your cities]",
+
+			"Comment [Expansive]",
+			"Provides [+2] [Health] <in [City center] tiles>",
+			"[+25]% Production when constructing [Worker] units [in your cities]",
+			"[+100]% Production when constructing [Granary] buildings [in your cities]",
+			"[+100]% Production when constructing [Harbor] buildings [in your cities]"
 		],
 		"cities": [
 			"Yasodharapura",
@@ -293,7 +345,17 @@
 		"outerColor": [70, 184, 203],
 		"innerColor": [73, 26, 17],
 		"uniques": [
-			"Starts with [Mysticism]", "Starts with [Mining]"
+			"Starts with [Mysticism]", "Starts with [Mining]",
+
+			"Comment [Expansive]",
+			"Provides [+2] [Health] <in [City center] tiles>",
+			"[+25]% Production when constructing [Worker] units [in your cities]",
+			"[+100]% Production when constructing [Granary] buildings [in your cities]",
+			"[+100]% Production when constructing [Harbor] buildings [in your cities]",
+
+			"Comment [Financial]",
+			"[+1 Gold] [in your cities]", // +1 Coin on squares with 2 or more Coin
+			"[+100]% Production when constructing [Bank] buildings [in your cities]"
 		],
 		"cities": [
 			"Mutal",
@@ -350,7 +412,19 @@
 		"outerColor": [145, 105, 50],
 		"innerColor": [11, 11, 13],
 		"uniques": [
-			"Starts with [Fishing]", "Starts with [Agriculture]"
+			"Starts with [Fishing]", "Starts with [Agriculture]",
+
+			"Comment [Philosophical]",
+			"[+100]% Great Person generation [in your cities]",
+			"[+100]% Production when constructing [University] buildings [in your cities]",
+
+			"Comment [Protective]",
+			"All newly-trained [Archery] units [in your cities] receive the [Drill I] promotion",
+			"All newly-trained [Gunpowder] units [in your cities] receive the [Drill I] promotion",
+			"All newly-trained [Archery] units [in your cities] receive the [City Garrison I] promotion",
+			"All newly-trained [Gunpowder] units [in your cities] receive the [City Garrison I] promotion",
+			"[+100]% Production when constructing [Walls] buildings [in your cities]",
+			"[+100]% Production when constructing [Castle] buildings [in your cities]"
 		],
 		"cities": [
 			"Cahokia",
@@ -413,7 +487,15 @@
 		"outerColor": [223, 58, 8],
 		"innerColor": [17, 12, 20],
 		"uniques": [
-			"Starts with [Fishing]", "Starts with [Agriculture]"
+			"Starts with [Fishing]", "Starts with [Agriculture]",
+
+			"Comment [Creative]",
+			"[+100]% Production when constructing [Theatre] buildings [in your cities]",
+			"[+100]% Production when constructing [Colosseum] buildings [in your cities]",
+
+			"Comment [Financial]",
+			"[+1 Gold] [in your cities]", // +1 Coin on squares with 2 or more Coin
+			"[+100]% Production when constructing [Bank] buildings [in your cities]"
 		],
 		"cities": [
 			"Amsterdam",
@@ -476,7 +558,17 @@
 		"outerColor": [26, 59, 22],
 		"innerColor": [213, 98, 90],
 		"uniques": [
-			"Starts with [Fishing]", "Starts with [Mining]"
+			"Starts with [Fishing]", "Starts with [Mining]",
+
+			"Comment [Expansive]",
+			"Provides [+2] [Health] <in [City center] tiles>",
+			"[+25]% Production when constructing [Worker] units [in your cities]",
+			"[+100]% Production when constructing [Granary] buildings [in your cities]",
+			"[+100]% Production when constructing [Harbor] buildings [in your cities]",
+
+			"Comment [Imperialistic]",
+			"[Great General] is earned [+100]% faster <if [Civ IV Warlords] is enabled>",
+			"[+100]% Production when constructing [Settler] units [in your cities]"
 		],
 		"cities": [
             "Lisbon", "Oporto", "Guimarães", "Coimbra", "Évora", "Lagos", "Braga", "Leiria", "Faro", "Santarém", "Braganza",
@@ -491,11 +583,22 @@
 		"name": "Sumeria",
 		"leaderName": "Gilgamesh",
 
-		"outerColor": [76,0,153],
+		"outerColor": [76, 0, 153],
 		"innerColor": [254, 125, 20],
 		"uniques": [
-			"Starts with [Agriculture]",
-			"Starts with [The Wheel]"
+			"Starts with [Agriculture]", "Starts with [The Wheel]",
+
+			"Comment [Creative]",
+			"[+100]% Production when constructing [Theatre] buildings [in your cities]",
+			"[+100]% Production when constructing [Colosseum] buildings [in your cities]",
+
+			"Comment [Protective]",
+			"All newly-trained [Archery] units [in your cities] receive the [Drill I] promotion",
+			"All newly-trained [Gunpowder] units [in your cities] receive the [Drill I] promotion",
+			"All newly-trained [Archery] units [in your cities] receive the [City Garrison I] promotion",
+			"All newly-trained [Gunpowder] units [in your cities] receive the [City Garrison I] promotion",
+			"[+100]% Production when constructing [Walls] buildings [in your cities]",
+			"[+100]% Production when constructing [Castle] buildings [in your cities]"
 		],
 		"cities": ["Uruk", "Eridu", "Kish", "Lagash", "Ur", "Nibru", "Bad-Tibira", "Zimbir", "Shuruppak", "Umma", "Larsa", "Isin",
 		"Girsu", "Adab", "Zabalam", "Akshak", "Larak", "Kisiga", "Nina", "Dilbat", "Kutu", "Marad", "Enegi", "Abu Salabikh",
