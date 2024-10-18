@@ -1,6 +1,27 @@
 // TODO: Add units https://civilization.fandom.com/wiki/Civilization_IV:_Beyond_the_Sword#New_Units
 [
 	{
+		"name": "Privateer",
+		"unitType": "Melee Water",
+		"strength": 6,
+		"movement": 4,
+		"cost": 80,
+		"requiredTech": "Chemistry",
+		"requiredResource": "Iron",
+		"uniques": [
+			"Can upgrade to [Destroyer]",
+			"Only available <after discovering [Astronomy]>",
+			"Consumes [1] [Copper]",
+			"Never appears as a Barbarian unit",
+			"May enter foreign tiles without open borders"
+			// TODO: Hidden Nationality
+			// Can attack and blockade without declaring war
+		],
+		"promotions": ["Sentry"],
+		"attackSound": "shipguns"
+	},
+
+	{
 		"name": "Ship of the Line",
 		"unitType": "Melee Water",
 		"strength": 8,
@@ -16,9 +37,199 @@
 		],
 		"attackSound": "metalhit"
 	},
-	
+
 	{
-		"name": "Stealth Bomber",
+		"name": "Paratrooper",
+		"unitType": "Gunpowder",
+		"strength": 24,
+		"movement": 1,
+		"cost": 160,
+		"requiredTech": "Flight",
+		"uniques": [
+			"Only available <after discovering [Fascism]>",
+			"Only available <after discovering [Rifling]>",
+			"Never appears as a Barbarian unit",
+			// TODO: Can perform paradrops; range: 5
+			"Withdraws before melee combat <with [25]% chance>"
+		],
+		"attackSound": "metalhit"
+	},
+
+	// Cuirassier in base mod
+
+	{
+		"name": "Airship",
+		"unitType": "Fighter",
+		"strength": 4,
+		"movement": 8,
+		"rangedStrength": 4,
+		"range": 5,
+		"cost": 80,
+		"requiredTech": "Physics",
+		"uniques": [
+			"Can upgrade to [Fighter]",
+			"Can see invisible [Submarine] units"
+			// Maximum of 20% damage to enemy
+		],
+		"attackSound": "bombing"
+	},
+
+	{
+		"name": "Anti-Tank",
+		"unitType": "Gunpowder",
+		"strength": 4,
+		"movement": 8,
+		"cost": 120,
+		"requiredTech": "Artillery",
+		"uniques": [
+			"Can upgrade to [Mechanized Infantry]",
+			"[+100]% Strength <vs [Armored] units>",
+			"[20]% chance to intercept air attacks"
+		],
+		"promotions": ["Ambush"],
+		"attackSound": "bombing"
+	},
+
+	{
+		"name": "Tactical Nuke",
+		"unitType": "Missle",
+		"strength": 150,
+		"movement": 4,
+		"rangedStrength": 150,
+		"range": 50,
+		"cost": 250,
+		"requiredTech": "Rocketry",
+		"requiredResource": "Uranium",
+		"uniques": [
+			"Only available <after discovering [Fission]>",
+			"Nuclear weapon of Strength [1]",
+			"Never appears as a Barbarian unit",
+			"Withdraws before melee combat <with [50]% chance>",
+			"Only available <if [The Manhattan Project] is constructed by anybody>",
+			"Blast radius [3]"
+		],
+		"attackSound": "nuke"
+	},
+
+	{
+		"name": "Guided Missile",
+		"unitType": "Missle",
+		"strength": 40,
+		"movement": 4,
+		"rangedStrength": 40,
+		"range": 20,
+		"cost": 60,
+		"requiredTech": "Rocketry",
+		"uniques": [
+			"Destroys tile improvements when attacking",
+			"Cannot be intercepted",
+			"Only available <after discovering [Radio]>",
+			"Never appears as a Barbarian unit",
+			"Blast radius [1]"
+		],
+		"attackSound": "missile"
+	},
+
+	{
+		"name": "Mobile Artillery",
+		"unitType": "Siege",
+		"strength": 26,
+		"movement": 2,
+		"rangedStrength": 26,
+		"range": 20,
+		"cost": 200,
+		"requiredTech": "Laser",
+		"requiredResource": "Oil",
+		"uniques": [
+			"Only available <after discovering [Artillery]>",
+			"[+50]% Strength <vs [Siege] units>",
+			"No defensive terrain bonus",
+			"Must set up to ranged attack",
+			// Maximum of 85% damage to enemy
+			// Immune to collateral damage from Siege Units
+			// Causes collateral damage
+			"[+32]% Strength <vs cities> <when attacking>", // Can bombard city defenses (-16%/turn)
+			// Cannot attack amphibiously
+			"Cannot attack <in [Water] tiles>"
+		],
+		"attackSound": "artillery"
+	},
+
+	{
+		"name": "Mobile SAM",
+		"unitType": "Gunpowder",
+		"strength": 22,
+		"movement": 2,
+		"cost": 220,
+		"interceptRange": 4,
+		"requiredTech": "Laser",
+		"requiredResource": "Oil",
+		"uniques": [
+			"[50]% chance to intercept air attacks",
+			"[+50]% Strength <vs [Helicopter] units>"
+		],
+		"attackSound": "missle"
+	},
+
+	{
+		"name": "Attack Submarine",
+		"unitType": "Submarine",
+		"strength": 30,
+		"movement": 7,
+		"cost": 180,
+		"requiredTech": "Rocketry",
+		"requiredResource": "Uranium",
+		"uniques": [
+			"Only available <after discovering [Radio]>",
+			"Only available <after discovering [Combustion]>",
+			"[+50]% Strength <vs [Submarine] units>",
+			"Can carry [1] [Scout] units",
+			"Can carry [1] [Civilian] units",
+			"May enter foreign tiles without open borders",
+			"Invisible to others",
+			"Can see invisible [Submarine] units",
+			"Can pass through impassable tiles"
+		],
+		"attackSound": "missle"
+	},
+
+	{
+		"name": "Missile Cruiser",
+		"unitType": "Melee Water",
+		"strength": 40,
+		"movement": 7,
+		"cost": 260,
+		"requiredTech": "Robotics",
+		"requiredResource": "Uranium",
+		"uniques": [
+			"Consumes [1] [Oil]",
+			"Can carry [4] [Missle] units",
+			// Causes collateral damage
+			"[+40]% Strength <vs cities> <when attacking>", // Can bombard city defenses (-20%/turn)
+		],
+		"attackSound": "missle"
+	},
+
+	{
+		"name": "Stealth Destroyer",
+		"unitType": "Melee Water",
+		"strength": 30,
+		"movement": 8,
+		"cost": 250,
+		"requiredTech": "Robotics",
+		"requiredResource": "Uranium",
+		"uniques": [
+			"Consumes [1] [Oil]",
+			"Invisible to others",
+			"Can see invisible [Melee Water] units",
+			"Can see invisible [Ranged Water] units"
+			// 2 first strikes
+		],
+		"attackSound": "missle"
+	},
+
+	{
+		"name": "Stealth Bomber", // Technology is changed in BTS
 		"unitType": "Bomber",
 		"strength": 20,
 		"movement": 12,
@@ -26,11 +237,11 @@
 		"range": 20,
 		"cost": 200,
 		"requiredTech": "Stealth",
+		"requiredResource": "Aluminum",
 		"uniques": [
 			"Only available <after discovering [Robotics]>",
 			// Causes collateral damage
 			"Consumes [1] [Oil]",
-			"Consumes [1] [Aluminum]",
 			"Damage taken from interception reduced by [50]%", // Can evade interception (50% chance)
 			"[-50]% Strength <vs [Water] units>",
 			"Destroys tile improvements when attacking",
