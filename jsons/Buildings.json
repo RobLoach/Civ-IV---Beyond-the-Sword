@@ -77,6 +77,81 @@
 		],
 		"requiredTech": "Aesthetics",
 		"requiredBuilding": "Monument"
-	}
+	},
+
+	{
+		"name": "Mausoleum of Maussollos",
+		"cost": 450,
+		"isWonder": true,
+		"culture": 2,
+		"greatPersonPoints": {"Great Artist": 2},
+		"uniques": [
+			"[+50]% Golden Age length",
+			"[-50]% production cost <with [Marble]>"
+		],
+		"requiredTech": "Calendar"
+	},
+
+	{
+		"name": "Cristo Redentor",
+		"cost": 1000,
+		"isWonder": true,
+		"culture": 5,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"uniques": [
+			"[+50]% Golden Age length",
+			"[-50]% production cost <for [Spiritual] Civilizations>", // TODO: Target "Spiritual" civs
+			// TODO: No anarchy when changing civics and religion (like Spiritual)
+		],
+		"requiredTech": "Radio"
+	},
+
+	{
+		"name": "Shwedagon Paya",
+		"cost": 450,
+		"isWonder": true,
+		"culture": 8,
+		"greatPersonPoints": {"Great Prophet": 2},
+		"uniques": [
+			"Only available <after discovering [Meditation]>",
+			"[-50]% production cost <with [Gold Ore]>"
+			// TODO: Enables all religious civics
+		],
+		"requiredTech": "Aesthetics"
+	},
+
+	{
+		"name": "Moai Statues",
+		"cost": 250,
+		"isNationalWonder": true,
+		"culture": 2,
+		"greatPersonPoints": {"Great Prophet": 1},
+		"uniques": [
+            "Only available <in [Coastal] cities>",
+			"[-50]% production cost <with [Stone]>",
+			"[+1 Production] from [Water] tiles [in this city]"
+		],
+		"requiredTech": "Sailing"
+	},
+
+	{
+		"name": "National Park",
+		"cost": 300,
+		"isNationalWonder": true,
+		"culture": 3,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"uniques": [
+            // TODO: +1 free specialist for each Forest Preserve under this city's control
+			// TODO: No unhealthiness Unhealthiness (Civ4) from population in this city
+			// Removes access to Coal Coal (Civ4) for this city
+			"Unavailable",
+			"Will not be displayed in Civilopedia"
+		],
+		"requiredTech": "Biology"
+	},
+
+	// National Wonders
+
+
 
 ]
