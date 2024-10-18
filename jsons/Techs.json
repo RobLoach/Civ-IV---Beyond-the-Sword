@@ -2,16 +2,177 @@
 
 [
 	{
+		"columnNumber": 4,
+		"era": "Classical era",
+		"techs": [
+			{
+				"name": "Aesthetics",
+				"row": 18,
+				"cost": 300,
+				"prerequisites": ["Writing"],
+				"quote": "'Art for Art's sake is an empty phrase. Art for the sake of truth, art for the sake of the good and the beautiful, that is the faith I am searching for.' - George Sand"
+			}
+		]
+	},
+
+	{
+		"columnNumber": 5,
+		"era": "Classical era",
+		"techs": [
+			{
+				"name": "Literature",
+				"cost": 200,
+				"row": 21,
+				"prerequisites": ["Aesthetics", "Polytheism"],
+				"quote": "\"Some books are to be tasted, others to be swallowed and some few to be chewed and digested.\" - Sir Francis Bacon"
+			}
+		]
+	},
+
+	{
+		"columnNumber": 6,
+		"era": "Classical era",
+		"techs": [
+			{
+				"name": "Drama",
+				"cost": 300,
+				"row": 4,
+				"prerequisites": ["Aesthetics"],
+				"uniques": [
+					// TODO: Can Adjust Culture Rate in Cities
+				],
+				"quote": "\"All the world's a stage, And all the men and women merely players: They have their exits and their entrances; And one man in his time plays many parts.\" - William Shakespeare"
+			}
+		]
+	},
+	{
+		"columnNumber": 9,
+		"era": "Renaissance era",
+		"techs": [
+			{
+				"name": "Printing Press",
+				"cost": 1600,
+				"row": 19,
+				"prerequisites": ["Machinery", "Paper", "Alphabet"], // Added Alphabet
+				"uniques": [
+					"[+1 Gold] from [Village] tiles [in your cities]",
+					"[+1 Gold] from [Town] tiles [in your cities]"
+				],
+				"quote": "\"What gunpowder did for war, the printing press has done for the mind.\" - Wendell Phillips"
+			}
+		]
+	},
+
+	{
 		"columnNumber": 12,
 		"era": "Industrial era",
 		"techs": [
 			{
 				"name": "Military Science",
-				"row": 11,
+				"row": 19,
 				"cost": 2000,
 				"prerequisites": ["Chemistry"],
 				"quote": "'I must study politics and war that my sons may have liberty to study mathematics and philosophy.' - John Adams"
 			}
 		]
+	},
+
+	{
+		"columnNumber": 16,
+		"era": "Modern era",
+		"techs": [
+			{
+				"name": "Computers",
+				"cost": 6500,
+				"row": 1,
+				"prerequisites": ["Radio", "Plastics"],
+				"quote": "\"Never trust a computer you can't throw out the window.\" - Steve Wozniak"
+			}
+		]
+	},
+
+	{
+		"columnNumber": 17,
+		"era": "Modern era",
+		"techs": [
+			{
+				"name": "Advanced Flight",
+				"row": 23,
+				"cost": 5000,
+				"prerequisites": ["Satellites", "Flight"],
+				"quote": "'Oh! I have slipped the surly bonds of Earth, put out my hand and touched the face of God.' - John Gillespie Magee"
+			}
+		]
+	},
+
+	{
+		"columnNumber": 17,
+		"era": "Modern era",
+		"techs": [
+			{
+				"name": "Laser",
+				"row": 11,
+				"cost": 5000,
+				"prerequisites": ["Satellites", "Plastics"],
+				"quote": "'Nothing travels faster than the speed of light with the possible exception of bad news, which obeys its own special laws.' - Douglas Adams"
+			},
+
+			{
+				"name": "Fiber Optics",
+				"cost": 7500,
+				"row": 5,
+				"uniques": [
+					"Comment [Requires Computers or Laser]",
+					"Unavailable <before discovering [Computers]> <before discovering [Laser]> <hidden from users>"
+				],
+				"quote": "\"There is a single light of science and to brighten it anywhere is to brighten it everywhere.\" - Isaac Asimov"
+			},
+		]
+	},
+
+	{
+		"columnNumber": 17,
+		"era": "Modern era",
+		"techs": [
+			{
+				"name": "Superconductors",
+				"row": 2,
+				"cost": 5000,
+				"uniques": [
+					"Comment [Requires Refrigeration or Computers]",
+					"Unavailable <before discovering [Refrigeration]> <before discovering [Computers]> <hidden from users>"
+				],
+				"quote": "'Nothing travels faster than the speed of light with the possible exception of bad news, which obeys its own special laws.' - Douglas Adams"
+			}
+		]
+	},
+
+	{
+		"columnNumber": 18,
+		"era": "Future era",
+		"techs": [
+			{
+				"name": "Stealth",
+				"row": 23,
+				"cost": 8000,
+				"prerequisites": ["Composites", "Advanced Flight"],
+				"quote": "'Behind a veil, unseen yet present, I was the forceful soul that moved this mighty body.' - Jean Racine"
+			}
+		]
+	},
+
+	{
+		"columnNumber": 19,
+		"era": "Future era",
+		"techs": [
+			{
+				"name": "Future Tech",
+				"row": 3,
+				"cost": 8000,
+				"prerequisites": ["Stealth", "Genetics"],
+				"quote": "'The future will be better tomorrow.' - Dan Quayle"
+			}
+		]
 	}
+
 ]

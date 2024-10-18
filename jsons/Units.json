@@ -15,5 +15,28 @@
 			"[+50]% Strength <vs [Frigate] units>"
 		],
 		"attackSound": "metalhit"
-	}
+	},
+	
+	{
+		"name": "Stealth Bomber",
+		"unitType": "Bomber",
+		"strength": 20,
+		"movement": 12,
+		"rangedStrength": 20,
+		"range": 20,
+		"cost": 200,
+		"requiredTech": "Stealth",
+		"uniques": [
+			"Only available <after discovering [Robotics]>",
+			// Causes collateral damage
+			"Consumes [1] [Oil]",
+			"Consumes [1] [Aluminum]",
+			"Damage taken from interception reduced by [50]%", // Can evade interception (50% chance)
+			"[-50]% Strength <vs [Water] units>",
+			"Destroys tile improvements when attacking",
+			"Never appears as a Barbarian unit",
+			"[40]% Strength <vs cities> <when attacking>" // bombard city defenses (-20% turn)
+		],
+		"attackSound": "bombing"
+	},
 ]

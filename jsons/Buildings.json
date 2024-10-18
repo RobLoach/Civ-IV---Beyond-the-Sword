@@ -1,17 +1,18 @@
+// TODO: Add all Buildings https://civilization.fandom.com/wiki/Civilization_IV:_Beyond_the_Sword#New_Buildings
+
 [
+	// Buildings
+
 	{
-		"name": "Industrial Park",
-		"cost": 200,
-		"production": 2, // +1 free Engineer
-		"greatPersonPoints": {"Great Merchant": 3}, // +1 free Engineer
-		"specialistSlots": {"Engineer": 2},
+		"name": "Intelligence Agency",
+		"cost": 180,
+		"specialistSlots": {"Spy": 2},
         "uniques": [
-			"Provides [-2] [Health] <in this city>",
-			"Provides [-1] [Health] <in this city> <with [Coal]>",
-			"Provides [-1] [Health] <in this city> <with [Oil]>"
+			"Hidden when espionage is disabled"
+			// TODO: +8 Espionage
+			// TODO: +50% Espionage
 		],
-		"requiredTech": "Industrialism",
-		"requiredBuilding": "Factory"
+		"requiredTech": "Communism"
 	},
 
 	{
@@ -23,6 +24,21 @@
             "Provides [2] [Health] <in this city> <after adopting [Environmentalism]>"
 		],
 		"requiredTech": "Combustion"
+	},
+
+	{
+		"name": "Industrial Park",
+		"cost": 200,
+		"production": 2, // 1 Free Engineer
+		"greatPersonPoints": {"Great Engineer": 3}, // 1 Free Engineer
+		"specialistSlots": {"Engineer": 2},
+		"uniques": [
+            "Provides [-2] [Health] <in this city>",
+            "Provides [-1] [Health] <in this city> <with [Coal]>",
+            "Provides [-1] [Health] <in this city> <with [Oil]>"
+		],
+		"requiredTech": "Industrialism",
+		"requiredBuilding": "Factory"
 	},
 
 	{
@@ -44,5 +60,23 @@
 			"Only available <in [Coastal] cities>"
 		],
 		"requiredTech": "Economics"
+	},
+
+	// Wonders
+
+	{
+		"name": "Statue of Zeus",
+		"cost": 300,
+		"isWonder": true,
+		"culture": 10,
+		"greatPersonPoints": {"Great Artist": 2},
+		"uniques": [
+			// TODO: +100% Enemy War Weariness
+			"[-50]% production cost <with [Ivory]>",
+			"Only available <if [Monument] is constructed in at least [3] of [in your cities] cities>"
+		],
+		"requiredTech": "Aesthetics",
+		"requiredBuilding": "Monument"
 	}
+
 ]
