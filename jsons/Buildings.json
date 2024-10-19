@@ -164,4 +164,20 @@
 		"requiredTech": "Superconductors", // BTS
 		"requiredBuilding": "Observatory"
 	},
+
+	{
+		"name": "SS Thrusters",
+		"isNationalWonder": true,
+		"cost": 1200,
+		"uniques": [
+			// TODO: Require 1-5 required for space race
+			"Hidden when [Scientific] Victory is disabled",
+			"[-50]% production cost <with [Aluminum]>",
+			"Spaceship part",
+			"Cannot be purchased",
+			"Only available <if [Apollo Program] is constructed>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Superconductors"
+	},
 ]
