@@ -250,4 +250,19 @@
 		],
 		"attackSound": "bombing"
 	},
+
+	{
+		"name": "Corporate Executive",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 100,
+		"requiredTech": "Corporation",
+		"uniques": [
+			// TODO: Add the Corporate Executive -- Possibly spreading Religion as a Corporation?
+			"Unavailable",
+			"Cannot be purchased",
+			"Unbuildable",
+			"Will not be displayed in Civilopedia"
+		]
+	}
 ]

@@ -85,7 +85,10 @@
 				"name": "Computers",
 				"cost": 6500,
 				"row": 1,
-				"prerequisites": ["Radio", "Plastics"],
+				"prerequisites": ["Radio"],
+				"uniques": [
+					"Only available <after discovering [Plastics]>"
+				],
 				"quote": "\"Never trust a computer you can't throw out the window.\" - Steve Wozniak"
 			}
 		]
@@ -97,18 +100,12 @@
 		"techs": [
 			{
 				"name": "Advanced Flight",
-				"row": 23,
+				"row": 2,
 				"cost": 5000,
 				"prerequisites": ["Satellites", "Flight"],
 				"quote": "'Oh! I have slipped the surly bonds of Earth, put out my hand and touched the face of God.' - John Gillespie Magee"
-			}
-		]
-	},
+			},
 
-	{
-		"columnNumber": 17,
-		"era": "Modern era",
-		"techs": [
 			{
 				"name": "Laser",
 				"row": 11,
@@ -127,16 +124,10 @@
 				],
 				"quote": "\"There is a single light of science and to brighten it anywhere is to brighten it everywhere.\" - Isaac Asimov"
 			},
-		]
-	},
 
-	{
-		"columnNumber": 17,
-		"era": "Modern era",
-		"techs": [
 			{
 				"name": "Superconductors",
-				"row": 2,
+				"row": 6,
 				"cost": 5000,
 				"uniques": [
 					"Comment [Requires Refrigeration or Computers]",
@@ -153,7 +144,7 @@
 		"techs": [
 			{
 				"name": "Stealth",
-				"row": 23,
+				"row": 3,
 				"cost": 8000,
 				"prerequisites": ["Composites", "Advanced Flight"],
 				"quote": "'Behind a veil, unseen yet present, I was the forceful soul that moved this mighty body.' - Jean Racine"
