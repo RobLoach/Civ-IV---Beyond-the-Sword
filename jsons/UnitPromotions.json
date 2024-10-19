@@ -56,5 +56,34 @@
 		"unitTypes": ["Scout", "Sword", "Gunpowder"],
 		"outerColor": [12, 74, 146],
 		"innerColor": [219, 152, 13]
+	},
+
+	// Overrides
+
+	{
+		"name": "Blitz",
+		"prerequisites": ["Combat III"],
+		"uniques": [
+			"[1] additional attacks per turn",
+			"Only available <after discovering [Military Science]>"
+		],
+		"unitTypes": ["Mounted", "Armored", "Helicopter", "Melee Water"],
+		"outerColor": [12, 74, 146],
+		"innerColor": [219, 152, 13]
+	},
+	
+	{
+		"name": "Commando",
+		"prerequisites": ["Combat V"],
+		"uniques": [
+			// Can use enemy roads and railroads
+			"[1] Movement <in [Road] tiles> <on foreign continents>",
+			"[2] Movement <in [Railroad] tiles> <on foreign continents>",
+			"Only available <after discovering [Military Science]>"
+		],
+		"unitTypes": ["Sword", "Gunpowder", "Archery", "Ranged Gunpowder", "Gunpowder", "Scout", "Mounted", "Armored"],
+		"outerColor": [12, 74, 146],
+		"innerColor": [219, 152, 13]
 	}
+
 ]
