@@ -7,7 +7,7 @@
 		"techs": [
 			{
 				"name": "Aesthetics",
-				"row": 18,
+				"row": 2,
 				"cost": 300,
 				"prerequisites": ["Writing"],
 				"quote": "'Art for Art's sake is an empty phrase. Art for the sake of truth, art for the sake of the good and the beautiful, that is the faith I am searching for.' - George Sand"
@@ -22,7 +22,7 @@
 			{
 				"name": "Literature",
 				"cost": 200,
-				"row": 21,
+				"row": 17,
 				"prerequisites": ["Aesthetics", "Polytheism"],
 				"quote": "\"Some books are to be tasted, others to be swallowed and some few to be chewed and digested.\" - Sir Francis Bacon"
 			}
@@ -52,7 +52,7 @@
 			{
 				"name": "Printing Press",
 				"cost": 1600,
-				"row": 19,
+				"row": 17,
 				"prerequisites": ["Machinery", "Paper", "Alphabet"], // Added Alphabet
 				"uniques": [
 					"[+1 Gold] from [Village] tiles [in your cities]",
@@ -69,7 +69,7 @@
 		"techs": [
 			{
 				"name": "Military Science",
-				"row": 19,
+				"row": 16,
 				"cost": 2000,
 				"prerequisites": ["Chemistry"],
 				"quote": "'I must study politics and war that my sons may have liberty to study mathematics and philosophy.' - John Adams"
