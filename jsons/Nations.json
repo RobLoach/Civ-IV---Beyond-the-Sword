@@ -4,6 +4,27 @@
 		"name": "Babylon",
 		"leaderName": "Hammurabi",
 
+		// Diplomacy
+		"defeated": "The Babylonian Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "Greetings, stranger! Gaze\nin awe on the majesty\nthat is Babylon!",
+
+		// AI_DIPLO_DECLARE_WAR_3: Prepare to meet your doom!
+		"declaringWar": "Prepare to meet your doom!",
+
+		// AI_DIPLO_HELP_REFUSED_EQUAL_1: We shall remember this.
+		"attacked": "We shall remember this.",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "Welcome, friend!\nWhat can mighty Babylon do to\nassist your humble empire?",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "Well? Get on with it!\nI have laws to write!",
+
+		// AI_DIPLO_FR_OFFER_DEAL_1: Greetings! What do you think of this deal?
+		"tradeRequest": "Greetings! What do you think of this deal?",
+
 		"outerColor": [145, 9, 154],
 		"innerColor": [250, 205, 17],
 		"uniques": [
@@ -73,6 +94,27 @@
 		"name": "Byzantium",
 		"leaderName": "Justinian I",
 
+		// Diplomacy
+		"defeated": "The Byzantine Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "Welcome! May the heavens\nbless you as you deserve to be blessed!",
+
+		// AI_DIPLO_DECLARE_WAR_5: The time for talking is over! We shall shall settle this on the field of battle!
+		"declaringWar": "The time for talking is over!\nWe shall shall settle this on the field of battle!",
+
+		// AI_DIPLO_HELP_REFUSED_EQUAL_6: I expected better of you.
+		"attacked": "I expected better of you.",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "You honor Byzantium with your presence.\nHow can we assist you?",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "You may skip the pleasantries.\nWhy have you come to mighty Byzantium?",
+
+		// AI_DIPLO_FR_OFFER_DEAL_4: What do you think of this deal?
+		"tradeRequest": "What do you think of this deal?",
+
 		"outerColor": [103, 100, 104],
 		"innerColor": [247, 188, 5],
 		"uniques": [
@@ -139,10 +181,31 @@
 		"name": "Ethiopia",
 		"leaderName": "Zara Yaqob",
 
+		// Diplomacy
+		"defeated": "The Ethiopian Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "Hail to you. I am Ara Yaqob,\nruler of the god-fearing Ethiopian people!\nMay the friendship between our two great civilizations\nlast until we are much, much larger than you!",
+
+		// AI_DIPLO_DECLARE_WAR_9: I suppose you realize, this means war.
+		"declaringWar": "I suppose you realize, this means war.",
+
+		// AI_DIPLO_HELP_REFUSED_EQUAL_4: We'll remember this
+		"attacked": "We'll remember this.",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "May the blessings of Heaven be upon you!",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "Say what you have come to say, sinful one.\nI am listening.",
+
+		// AI_DIPLO_FUR_OFFER_DEAL_2: Show some intelligence for a change. Accept this deal.
+		"tradeRequest": "Show some intelligence for a change.\nAccept this deal.",
+
 		"outerColor": [124, 182, 98],
 		"innerColor": [27, 90, 50],
 		"uniques": [
-			"Starts with [Hunting]", "Starts with [Mining]"
+			"Starts with [Hunting]", "Starts with [Mining]",
 
 			"Comment [Creative]",
 			"[+100]% Production when constructing [Theatre] buildings [in your cities]",
@@ -206,6 +269,27 @@
 	{
 		"name": "Holy Rome",
 		"leaderName": "Charlemagne",
+
+		// Diplomacy
+		"defeated": "The Holy Roman Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "May the blessings of Heaven be upon you.\nI, Charlemagne, leader of the puissant Holy Roman people,\nwelcome you to our mighty empire.",
+
+		// AI_DIPLO_DECLARE_WAR_4: Now you shall pay for your many insults.
+		"declaringWar": "Now you shall pay for your many insults.",
+
+		// AI_DIPLO_HELP_REFUSED_STRONGER_6: That's too bad. For the both of us, I fear.
+		"attacked": "That's too bad. For the both of us, I fear.",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "We graciously welcome you to our presence.",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "What do YOU want, knave?",
+
+		// AI_DIPLO_FR_OFFER_DEAL_5: My friend, can I tempt you with this offer?
+		"tradeRequest": "My friend, can I tempt you with this offer?",
 
 		"outerColor": [222, 207, 67],
 		"innerColor": [46, 43, 45],
@@ -278,6 +362,27 @@
 		"name": "Khmer",
 		"leaderName": "Suryavarman II",
 
+		// Diplomacy
+		"defeated": "The Khmer Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "I am pleased to meet you, and I look\nforward to many years of peace and friendship\nbetween our two great nations.",
+
+		// AI_DIPLO_DECLARE_WAR_8: Fool! Now we shall destroy you!
+		"declaringWar": "Fool! Now we shall destroy you!",
+
+		// AI_DIPLO_HELP_REFUSED_STRONGER_3: As you will.
+		"attacked": "As you will.",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "Welcome, my friend! Let us discuss many things.\nHere: have a mango.",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "Well?",
+
+		// AI_DIPLO_FUR_OFFER_DEAL_6: Here's the deal
+		"tradeRequest": "Here's the deal.",
+
 		"outerColor": [16, 45, 152],
 		"innerColor": [229, 99, 103],
 		"uniques": [
@@ -341,6 +446,27 @@
 	{
 		"name": "Maya",
 		"leaderName": "Pacal II",
+
+		// Diplomacy
+		"defeated": "The Mayan Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "I greet you. Maya is mighty...\nDeal with us fairly and you will prosper. Attack us\nand our temples will run red with the blood of your warriors!",
+
+		// AI_DIPLO_DECLARE_WAR_3: Prepare to meet your doom!
+		"declaringWar": "Prepare to meet your doom!",
+
+		// AI_DIPLO_HELP_REFUSED_EQUAL_6: I expected better of you.
+		"attacked": "I expected better of you.",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "I greet my friend and almost equal.\nAnd what present shall you give us today?",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "Come to grovel at our feet, eh? Well, go ahead.",
+
+		// AI_DIPLO_FR_OFFER_DEAL_3: How does this sound to you?
+		"tradeRequest": "How does this sound to you?",
 
 		"outerColor": [70, 184, 203],
 		"innerColor": [73, 26, 17],
@@ -408,6 +534,27 @@
 	{
 		"name": "Native America",
 		"leaderName": "Sitting Bull",
+
+	// Diplomacy
+	"defeated": "The Native American Civilization has been destroyed!!!",
+
+	// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+	"introduction": "The great Native American people welcome you.\nWould it be politically correct to offer you a peace-pipe?",
+
+	// AI_DIPLO_DECLARE_WAR_10: We've has had enough of your treachery and deceit! Now you must pay!
+	"declaringWar": "We've has had enough of your treachery\nand deceit! Now you must pay!",
+
+	// AI_DIPLO_HELP_REFUSED_EQUAL_5: You foolish person.
+	"attacked": "You foolish person.",
+
+	// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+	"neutralHello": "Welcome, my friend! You are indeed wise\nto seek the council of your betters.",
+
+	// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+	"hateHello": "What could you possibly say that would be of\neven the slightest interest to me?",
+
+	// AI_DIPLO_FR_OFFER_DEAL_5: My friend, can I tempt you with this offer?
+	"tradeRequest": "My friend, can I tempt you with this offer?",
 
 		"outerColor": [145, 105, 50],
 		"innerColor": [11, 11, 13],
@@ -484,6 +631,27 @@
 		"name": "Netherlands",
 		"leaderName": "Willem van Oranje",
 
+		// Diplomacy
+		"defeated": "The Dutch Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "I am honored to meet you.\nI hope that our two nations will be\nable to live in peace and friendship.",
+
+		// AI_DIPLO_DECLARE_WAR_5: The time for talking is over! We shall shall settle this on the field of battle!
+		"declaringWar": "The time for talking is over!\nWe shall shall settle this on the field of battle!",
+
+		// AI_DIPLO_HELP_REFUSED_STRONGER_4: Remember, what goes around comes around...
+		"attacked": "Remember, what goes around comes around...",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "Welcome. I can always spare a few moments\nto converse with friends and allies.",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "I'm listening.",
+
+		// AI_DIPLO_FR_OFFER_DEAL_2: Our peace-loving people seek a fair trade with you. How about it?
+		"tradeRequest": "Our peace-loving people seek a fair\ntrade with you. How about it?",
+
 		"outerColor": [223, 58, 8],
 		"innerColor": [17, 12, 20],
 		"uniques": [
@@ -555,6 +723,26 @@
 		"name": "Portugal",
 		"leaderName": "Joao II",
 
+		// Diplomacy
+		"defeated": "The Portuguese Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "Congratulations! At last your explorations have led you to me!",
+
+		// AI_DIPLO_DECLARE_WAR_9: I suppose you realize, this means war.
+		"declaringWar": "I suppose you realize, this means war.",
+
+		// AI_DIPLO_HELP_REFUSED_STRONGER_5: Fine. See if we help you out when you need it.
+		"attacked": "Fine. See if we help you out when you need it.",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "I greet you with effusive ebullience, my good friend.",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "What now?",
+
+		"tradeRequest": "If it pleases you, the Portugese could use a little assistance.",
+
 		"outerColor": [26, 59, 22],
 		"innerColor": [213, 98, 90],
 		"uniques": [
@@ -583,6 +771,27 @@
 		"name": "Sumeria",
 		"leaderName": "Gilgamesh",
 
+		// Diplomacy
+		"defeated": "The Sumerian Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "Welcome, puny mortal. I am Gilgamesh,\ndivine leader of Sumeria. How can you assist me?",
+
+		// AI_DIPLO_DECLARE_WAR_1: This world isn't big enough for the two of us!
+		"declaringWar": "This world isn't big enough for the\ntwo of us!",
+
+		// AI_DIPLO_HELP_REFUSED_STRONGER_2: Very well. On your own head be it.
+		"attacked": "Very well. On your own head be it.",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "Welcome, my friend! Let us discuss\nmany things. Here: have a mango.",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "Well?",
+
+		// AI_DIPLO_FUR_OFFER_DEAL_3: We are offering you this trade. I suggest you take it.
+		"tradeRequest": "We are offering you this trade.\nI suggest you take it.",
+
 		"outerColor": [76, 0, 153],
 		"innerColor": [254, 125, 20],
 		"uniques": [
@@ -600,9 +809,11 @@
 			"[+100]% Production when constructing [Walls] buildings [in your cities]",
 			"[+100]% Production when constructing [Castle] buildings [in your cities]"
 		],
-		"cities": ["Uruk", "Eridu", "Kish", "Lagash", "Ur", "Nibru", "Bad-Tibira", "Zimbir", "Shuruppak", "Umma", "Larsa", "Isin",
-		"Girsu", "Adab", "Zabalam", "Akshak", "Larak", "Kisiga", "Nina", "Dilbat", "Kutu", "Marad", "Enegi", "Abu Salabikh",
-		"Ki-an", "Pazurish-Dagan", "Dabrum", "Kissura", "Kutallu", "Nagsu", "Kesh", "Aratta", "Der", "Hamazi", "Apisada",
-		"Jemdet Nasr", "Ubaid"]
+		"cities": [
+			"Uruk", "Eridu", "Kish", "Lagash", "Ur", "Nibru", "Bad-Tibira", "Zimbir", "Shuruppak", "Umma", "Larsa", "Isin",
+			"Girsu", "Adab", "Zabalam", "Akshak", "Larak", "Kisiga", "Nina", "Dilbat", "Kutu", "Marad", "Enegi", "Abu Salabikh",
+			"Ki-an", "Pazurish-Dagan", "Dabrum", "Kissura", "Kutallu", "Nagsu", "Kesh", "Aratta", "Der", "Hamazi", "Apisada",
+			"Jemdet Nasr", "Ubaid"
+		]
 	}
 ]
