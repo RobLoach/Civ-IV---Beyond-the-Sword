@@ -1,6 +1,6 @@
 # Unciv Civ IV Beyond the Sword
 
-[Unciv](https://github.com/yairm210/unciv) mod for [Civilization IV: Beyond the Sword](https://civilization.fandom.com/wiki/Civilization_IV:_Beyond_the_Sword). Depends on the [Civ IV Mod](https://github.com/yairm210/Unciv-IV-mod). **Work in Progress**
+[Unciv](https://github.com/yairm210/unciv) mod for [Civilization IV: Beyond the Sword](https://civilization.fandom.com/wiki/Civilization_IV:_Beyond_the_Sword). Depends on the [Civ IV Mod](https://github.com/yairm210/Unciv-IV-mod).
 
 ## Installation
 
