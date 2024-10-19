@@ -148,6 +148,20 @@
 			"Will not be displayed in Civilopedia"
 		],
 		"requiredTech": "Biology"
-	}
+	},
 
+	// Overrides
+
+	{
+		"name": "Laboratory",
+		"cost": 250,
+		"specialistSlots": {"Scientist": 1},
+		"percentStatBonus": {"science": 25},
+        "uniques": [
+            "Provides [-1] [Health] <in this city>",
+			"[+50]% Production when constructing [Spaceship part] buildings [in this city]"
+        ],
+		"requiredTech": "Superconductors", // BTS
+		"requiredBuilding": "Observatory"
+	},
 ]
