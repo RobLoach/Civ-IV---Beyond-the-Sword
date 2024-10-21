@@ -3,8 +3,7 @@
 		"name": "Range I",
 		"prerequisites": ["Combat II"],
 		"uniques": [
-			"[+1] Range",
-			"[This Unit] heals [25] HP <hidden from users>"
+			"[+1] Range"
 		],
 		"unitTypes": ["Fighter", "Bomber", "Helicopter"],
 		"outerColor": [12, 74, 146],
@@ -14,8 +13,7 @@
 		"name": "Range II",
 		"prerequisites": ["Range I"],
 		"uniques": [
-			"[+1] Range",
-			"[This Unit] heals [25] HP <hidden from users>"
+			"[+1] Range"
 		],
 		"unitTypes": ["Fighter", "Bomber", "Helicopter"],
 		"outerColor": [12, 74, 146],
@@ -23,10 +21,7 @@
 	},
 	{
 		"name": "Interception I",
-		"uniques": [
-			"[+10]% chance to intercept air attacks",
-			"[This Unit] heals [25] HP <hidden from users>"
-		],
+		"uniques": ["[+10]% chance to intercept air attacks"],
 		"unitTypes": ["Fighter", "Helicopter", "Bomber", "Ranged Gunpowder"],
 		"outerColor": [12, 74, 146],
 		"innerColor": [219, 152, 13]
@@ -34,10 +29,7 @@
 	{
 		"name": "Interception II",
 		"prerequisites": ["Interception I"],
-		"uniques": [
-			"[+20]% chance to intercept air attacks",
-			"[This Unit] heals [25] HP <hidden from users>"
-		],
+		"uniques": ["[+20]% chance to intercept air attacks"],
 		"unitTypes": ["Fighter", "Helicopter", "Bomber", "Ranged Gunpowder"],
 		"outerColor": [12, 74, 146],
 		"innerColor": [219, 152, 13]
@@ -46,8 +38,7 @@
 		"name": "Ace",
 		"prerequisites": ["Combat III"],
 		"uniques": [
-			"Damage taken from interception reduced by [+50]%", // +25% Evasion Chance
-			"[This Unit] heals [25] HP <hidden from users>"
+			"Damage taken from interception reduced by [+50]%" // +25% Evasion Chance
 		],
 		"unitTypes": ["Helicopter", "Fighter", "Bomber"],
 		"outerColor": [12, 74, 146],
@@ -60,8 +51,7 @@
 			// TODO: +2 first strikes
 			"[+50]% Strength <when fighting in [Jungle] tiles> <when attacking>",
 			"[+50]% Strength <when fighting in [Forest] tiles> <when attacking>",
-			"All adjacent units heal [+15] HP when healing", // Heals units in the same tile extra 15%/turn
-			"[This Unit] heals [25] HP <hidden from users>"
+			"All adjacent units heal [+1] HP when healing" // Heals units in the same tile extra 15%/turn
 		],
 		"unitTypes": ["Scout", "Sword", "Gunpowder"],
 		"outerColor": [12, 74, 146],
@@ -75,14 +65,13 @@
 		"prerequisites": ["Combat III"],
 		"uniques": [
 			"[1] additional attacks per turn",
-			"Only available <after discovering [Military Science]>",
-			"[This Unit] heals [25] HP <hidden from users>"
+			"Only available <after discovering [Military Science]>"
 		],
 		"unitTypes": ["Mounted", "Armored", "Helicopter", "Melee Water"],
 		"outerColor": [12, 74, 146],
 		"innerColor": [219, 152, 13]
 	},
-
+	
 	{
 		"name": "Commando",
 		"prerequisites": ["Combat V"],
@@ -90,8 +79,7 @@
 			// Can use enemy roads and railroads
 			"[1] Movement <in [Road] tiles> <on foreign continents>",
 			"[2] Movement <in [Railroad] tiles> <on foreign continents>",
-			"Only available <after discovering [Military Science]>",
-			"[This Unit] heals [25] HP <hidden from users>"
+			"Only available <after discovering [Military Science]>"
 		],
 		"unitTypes": ["Sword", "Gunpowder", "Archery", "Ranged Gunpowder", "Gunpowder", "Scout", "Mounted", "Armored"],
 		"outerColor": [12, 74, 146],
