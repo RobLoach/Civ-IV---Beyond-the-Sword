@@ -17,6 +17,7 @@ jobs:
       - uses: actions/checkout@v4
       
       - name: oxipng image compression # This needs to be before the Unciv run since that packs images
+        if: false # Skip this step for now
         run: | 
           oxipng_url=$(curl -s https://api.github.com/repos/shssoichiro/oxipng/releases/latest | grep -o "http.*x86_64-unknown-linux-gnu.tar.gz")
           wget -O oxipng.tar.gz $oxipng_url
