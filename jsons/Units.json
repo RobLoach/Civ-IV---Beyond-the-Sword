@@ -7,7 +7,7 @@
 		"movement": 4,
 		"cost": 80,
 		"requiredTech": "Chemistry",
-		"requiredResource": "Iron",
+		"requiredResource": "Iron", // TODO: Requires Iron OR Coppper
 		"uniques": [
 			"Can upgrade to [Destroyer]",
 			"Only available <after discovering [Astronomy]>",
@@ -217,7 +217,7 @@
 		"movement": 8,
 		"cost": 250,
 		"requiredTech": "Robotics",
-		"requiredResource": "Uranium",
+		"requiredResource": "Uranium", // TODO: Requires Uranium OR Oil
 		"uniques": [
 			"Consumes [1] [Oil]",
 			"Invisible to others",
