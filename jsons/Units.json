@@ -1,4 +1,3 @@
-// TODO: Add units https://civilization.fandom.com/wiki/Civilization_IV:_Beyond_the_Sword#New_Units
 [
 	{
 		"name": "Privateer",
@@ -7,15 +6,25 @@
 		"movement": 4,
 		"cost": 80,
 		"requiredTech": "Chemistry",
-		"requiredResource": "Iron", // TODO: Requires Iron OR Coppper
 		"uniques": [
 			"Can upgrade to [Destroyer]",
 			"Only available <after discovering [Astronomy]>",
-			"Consumes [1] [Copper]",
 			"Never appears as a Barbarian unit",
-			"May enter foreign tiles without open borders"
+			"May enter foreign tiles without open borders",
 			// TODO: Hidden Nationality
 			// Can attack and blockade without declaring war
+
+			"Unavailable <without [Iron]> <without [Copper]> <hidden from users>",
+		],
+		"civilopediaText": [
+			{
+				"text": "Requires Copper...",
+				"link": "Resources/Copper"
+			},
+			{
+				"text": "...or Iron",
+				"link": "Resources/Iron"
+			}
 		],
 		"promotions": ["Sentry"],
 		"attackSound": "shipguns"
@@ -28,12 +37,11 @@
 		"movement": 3,
 		"cost": 120,
 		"requiredTech": "Astronomy",
-		"requiredResource": "Iron",
 		"uniques": [
 			"Can upgrade to [Destroyer]",
 			"Only available <after discovering [Military Science]>",
-			"Consumes [1] [Copper]",
-			"[+50]% Strength <vs [Frigate] units>"
+			"[+50]% Strength <vs [Frigate] units>",
+			"Only available <with [Iron]>"
 		],
 		"attackSound": "metalhit"
 	},
@@ -99,7 +107,7 @@
 		"range": 50,
 		"cost": 250,
 		"requiredTech": "Rocketry",
-		"requiredResource": "Uranium",
+		"requiredResource": "Uranium", // TODO: Is Uranium consumed?
 		"uniques": [
 			"Only available <after discovering [Fission]>",
 			"Nuclear weapon of Strength [1]",
@@ -139,7 +147,6 @@
 		"range": 20,
 		"cost": 200,
 		"requiredTech": "Laser",
-		"requiredResource": "Oil",
 		"uniques": [
 			"Only available <after discovering [Artillery]>",
 			"[+50]% Strength <vs [Siege] units>",
@@ -150,7 +157,8 @@
 			// Causes collateral damage
 			"[+32]% Strength <vs cities> <when attacking>", // Can bombard city defenses (-16%/turn)
 			// Cannot attack amphibiously
-			"Cannot attack <in [Water] tiles>"
+			"Cannot attack <in [Water] tiles>",
+			"Only available <with [Oil]>"
 		],
 		"attackSound": "artillery"
 	},
@@ -163,10 +171,10 @@
 		"cost": 220,
 		"interceptRange": 4,
 		"requiredTech": "Laser",
-		"requiredResource": "Oil",
 		"uniques": [
 			"[50]% chance to intercept air attacks",
-			"[+50]% Strength <vs [Helicopter] units>"
+			"[+50]% Strength <vs [Helicopter] units>",
+			"Only available <with [Oil]>"
 		],
 		"attackSound": "missle"
 	},
@@ -178,7 +186,6 @@
 		"movement": 7,
 		"cost": 180,
 		"requiredTech": "Rocketry",
-		"requiredResource": "Uranium",
 		"uniques": [
 			"Only available <after discovering [Radio]>",
 			"Only available <after discovering [Combustion]>",
@@ -188,7 +195,8 @@
 			"May enter foreign tiles without open borders",
 			"Invisible to others",
 			"Can see invisible [Submarine] units",
-			"Can pass through impassable tiles"
+			"Can pass through impassable tiles",
+			"Only available <with [Uranium]>"
 		],
 		"attackSound": "missle"
 	},
@@ -200,12 +208,21 @@
 		"movement": 7,
 		"cost": 260,
 		"requiredTech": "Robotics",
-		"requiredResource": "Uranium",
 		"uniques": [
-			"Consumes [1] [Oil]",
 			"Can carry [4] [Missle] units",
 			// Causes collateral damage
 			"[+40]% Strength <vs cities> <when attacking>", // Can bombard city defenses (-20%/turn)
+			"Unavailable <without [Uranium]> <without [Oil]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Requires Uranium...",
+				"link": "Resources/Uranium"
+			},
+			{
+				"text": "...or Oil",
+				"link": "Resources/Oil"
+			}
 		],
 		"attackSound": "missle"
 	},
@@ -217,19 +234,28 @@
 		"movement": 8,
 		"cost": 250,
 		"requiredTech": "Robotics",
-		"requiredResource": "Uranium", // TODO: Requires Uranium OR Oil
 		"uniques": [
-			"Consumes [1] [Oil]",
 			"Invisible to others",
 			"Can see invisible [Melee Water] units",
 			"Can see invisible [Ranged Water] units"
 			// 2 first strikes
+			"Unavailable <without [Uranium]> <without [Oil]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Requires Uranium...",
+				"link": "Resources/Uranium"
+			},
+			{
+				"text": "...or Oil",
+				"link": "Resources/Oil"
+			}
 		],
 		"attackSound": "missle"
 	},
 
 	{
-		"name": "Stealth Bomber", // Technology is changed in BTS
+		"name": "Stealth Bomber",
 		"unitType": "Bomber",
 		"strength": 20,
 		"movement": 12,
@@ -237,16 +263,16 @@
 		"range": 20,
 		"cost": 200,
 		"requiredTech": "Stealth",
-		"requiredResource": "Aluminum",
 		"uniques": [
 			"Only available <after discovering [Robotics]>",
 			// Causes collateral damage
-			"Consumes [1] [Oil]",
 			"Damage taken from interception reduced by [50]%", // Can evade interception (50% chance)
 			"[-50]% Strength <vs [Water] units>",
 			"Destroys tile improvements when attacking",
 			"Never appears as a Barbarian unit",
-			"[40]% Strength <vs cities> <when attacking>" // bombard city defenses (-20% turn)
+			"[40]% Strength <vs cities> <when attacking>", // bombard city defenses (-20% turn)
+			"Only available <with [Uranium]>",
+			"Only available <with [Oil]>"
 		],
 		"attackSound": "bombing"
 	},
@@ -264,5 +290,203 @@
 			"Unbuildable",
 			"Will not be displayed in Civilopedia"
 		]
+	},
+
+	{
+		"name": "Bowman",
+		"replaces": "Marine",
+		"uniqueTo": "Babylon",
+		"unitType": "Archery",
+		"strength": 3,
+		"movement": 1,
+		"cost": 25,
+		"requiredTech": "Archery",
+		"uniques": [
+			// +1 First Strike
+			"[+50]% Strength <when fighting in [City center] tiles> <when defending>",
+			"[+25]% Strength <when fighting in [Hill] tiles> <when defending>",
+			"[+50]% Strength <vs [Sword] units>",
+			"Can upgrade to [Longbowman]",
+			"Can upgrade to [Crossbowman]"
+		],
+		"attackSound": "arrow"
+	},
+
+	{
+		"name": "Cataphract",
+		"replaces": "Knight",
+		"uniqueTo": "Byzantine",
+		"unitType": "Mounted",
+		"strength": 12,
+		"movement": 2,
+		"cost": 90,
+		"requiredTech": "Guilds",
+		"uniques": [
+			"Can upgrade to [Cuirassier]",
+			"Only available <after discovering [Horseback Riding]>",
+			"Only available <with [Horses]>",
+			"Only available <with [Iron]>",
+			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Catapults] units>",
+			"[+50]% Strength <vs [Trebuchet] units>"
+		],
+		"attackSound": "horse"
+	},
+
+	{
+		"name": "Oromo Warrior",
+		"replaces": "Musketman",
+		"uniqueTo": "Ethiopia",
+		"unitType": "Gunpowder",
+		"strength": 9,
+		"movement": 1,
+		"cost": 80,
+		"requiredTech": "Gunpowder",
+		"uniques": [
+			"Can upgrade to [Rifleman]"
+			// Immune to first strikes
+			// 1 First Strike
+		],
+		"promotions": [
+			"Drill I",
+			"Drill II"
+		],
+		"attackSound": "shot"
+	},
+
+	{
+		"name": "Landsknecht",
+		"replaces": "Pikeman",
+		"uniqueTo": "Holy Rome",
+		"unitType": "Sword",
+		"strength": 6,
+		"movement": 1,
+		"cost": 60,
+		"requiredTech": "Engineering",
+		"uniques": [
+			"Can upgrade to [Rifleman]",
+			"Can upgrade to [Grenadier]",
+			"[+100]% Strength <vs [Sword] units>",
+			"[+100]% Strength <vs [Mounted] units>",
+			"Only available <with [Iron]>"
+		],
+		"attackhit": "metalhit"
+	},
+
+	{
+		"name": "Ballista Elephant",
+		"replaces": "War Elephant",
+		"uniqueTo": "Khmer",
+		"unitType": "Mounted",
+		"strength": 8,
+		"movement": 1,
+		"cost": 60,
+		"requiredTech": "Construction",
+		"uniques": [
+			"Only available <after discovering [Horseback Riding]>",
+			"Can upgrade to [Cuirassier]",
+			"Only available <with [Ivory]>",
+			"[+50]% Strength <vs [Mounted] units>",
+			"No defensive terrain bonus"
+			// Targets Mounted units first in cities
+		],
+		"attackSound": "elephant"
+	},
+
+	{
+		"name": "Holkan",
+		"replaces": "Spearman",
+		"uniqueTo": "Maya",
+		"unitType": "Sword",
+		"strength": 4,
+		"movement": 1,
+		"cost": 35,
+		"requiredTech": "Bronze Working",
+		"uniques": [
+			"Only available <after discovering [Hunting]>",
+			"Can upgrade to [Pikeman]",
+			"[+100]% Strength <vs [Mounted] units>"
+			// Immune to first strike
+		],
+		"attacksound": "metalhit"
+	},
+
+	{
+		"name": "Dog Soldier",
+		"replaces": "Axeman",
+		"uniqueTo": "Native America",
+		"unitType": "Sword",
+		"strength": 4,
+		"movement": 1,
+		"cost": 35,
+		"requiredTech": "Bronze Working",
+		"uniques": [
+			"Can upgrade to [Maceman]",
+			"[+100]% Strength <vs [Sword] units>"
+		],
+		"attacksound": "metalhit"
+	},
+
+	{
+		"name": "East Indiaman",
+		"replaces": "Galleon",
+		"uniqueTo": "Netherlands",
+		"unitType": "Melee Water",
+		"strength": 6,
+		"movement": 4,
+		"cost": 80,
+		"requiredTech": "Astronomy",
+		"uniques": [
+			"May enter foreign tiles without open borders",
+			"Can upgrade to [Transport]",
+			"[+100]% Strength <vs [Sword] units>",
+			"Can carry [4] [Land] units"
+		],
+		"attacksound": "shipguns"
+	},
+
+	{
+		"name": "Carrack",
+		"replaces": "Caravel",
+		"uniqueTo": "Portugal",
+		"unitType": "Melee Water",
+		"strength": 3,
+		"movement": 3,
+		"cost": 60,
+		"requiredTech": "Optics",
+		"uniques": [
+			"Can upgrade to [Frigate]",
+			"Can upgrade to [Submarine]",
+			"May enter foreign tiles without open borders",
+			"Can carry [2] [Land] units"
+		],
+		"attacksound": "shipguns"
+	},
+
+	{
+		"name": "Vulture",
+		"replaces": "Axeman",
+		"uniqueTo": "Sumeria",
+		"unitType": "Sword",
+		"strength": 6,
+		"movement": 1,
+		"cost": 35,
+		"requiredTech": "Bronze Working",
+		"uniques": [
+			"Can upgrade to [Maceman]",
+			"[+25]% Strength <vs [Sword] units>",
+			"Unavailable <without [Iron]> <without [Copper]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Requires Copper...",
+				"link": "Resources/Copper"
+			},
+			{
+				"text": "...or Iron",
+				"link": "Resources/Iron"
+			}
+		],
+		"attacksound": "nonmetalhit"
 	}
 ]
