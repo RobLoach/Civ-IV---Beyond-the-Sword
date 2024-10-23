@@ -488,5 +488,29 @@
 			}
 		],
 		"attacksound": "nonmetalhit"
+	},
+
+	// Overrides
+	{
+		"name": "Helicopter Gunship", // "Gunship in Civ 4
+		"unitType": "Helicopter",
+		"strength": 24,
+		"movement": 4,
+		"cost": 160,
+		"requiredTech": "Advanced Flight",
+		"uniques": [
+			"Only available <after discovering [Rocketry]>",
+			"Withdraws before melee combat <with [25]% chance>",
+			"[+100]% Strength <vs [Armored] units>",
+			"[+20]% to Flank Attack bonuses <vs [Siege] units>",
+			"Unable to capture cities",
+			"No defensive terrain bonus",
+			"All tiles cost 1 movement",
+			"Ignores Zone of Control",
+			"Never appears as a Barbarian unit",
+
+			"Only available <with [Oil]>"
+		],
+		"attackSound": "machinegun"
 	}
 ]
