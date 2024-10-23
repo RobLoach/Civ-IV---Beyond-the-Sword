@@ -367,7 +367,8 @@
 			"Can upgrade to [Rifleman]",
 			"Can upgrade to [Grenadier]",
 			"[+100]% Strength <vs [Sword] units>",
-			"[+100]% Strength <vs [Mounted] units>"
+			"[+100]% Strength <vs [Mounted] units>",
+			"Only available <with [Iron]>"
 		],
 		"attackhit": "metalhit"
 	},
