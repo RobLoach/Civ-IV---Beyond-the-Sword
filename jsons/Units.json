@@ -491,6 +491,26 @@
 	},
 
 	// Overrides
+
+	{
+		"name": "Spy",
+		"unitType": "Scout",
+		"movement": 1,
+		"cost": 40,
+		"requiredTech": "Alphabet",
+		"promotions": [
+			"Commando"
+		],
+		"uniques": [
+			"Invisible to others",
+			"Can see invisible [Spy] units",
+			"May enter foreign tiles without open borders",
+			"Never appears as a Barbarian unit",
+			"Cannot attack"
+			// TODO: Have Spies conduct Espionage missions
+		]
+	},
+
 	{
 		"name": "Helicopter Gunship", // "Gunship in Civ 4
 		"unitType": "Helicopter",

@@ -341,5 +341,19 @@
         ],
 		"requiredTech": "Superconductors",
 		"requiredBuilding": "Observatory"
-	}
+	},
+
+	{
+		"name": "Scotland Yard",
+		"cost": 500,
+		"isWonder": false,
+		"uniques": [
+			"Hidden when espionage is disabled",
+			"Unbuildable",
+			"Cannot be hurried",
+			"Cannot be purchased"
+			// TODO: 100% Espionage
+		],
+		"requiredTech": "Communism"
+	},
 ]
