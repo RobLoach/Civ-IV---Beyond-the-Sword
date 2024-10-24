@@ -180,4 +180,139 @@
 		],
 		"requiredTech": "Superconductors"
 	},
+
+	// Uniques
+
+	{
+		"name": "Garden",
+		"uniqueTo": "Babylon",
+		"replaces": "Colosseum",
+		"cost": 80,
+		"happiness": 1,
+		"uniques": [
+            "Provides [2] [Health] <in this city>"
+			// TODO: +1 Happiness per 20% Culture rate
+		],
+		"requiredTech": "Construction"
+	},
+
+	{
+		"name": "Hippodrome",
+		"uniqueTo": "Byzantine",
+		"replaces": "Theatre",
+		"cost": 50,
+		"happiness": 1,
+		"specialistSlots": {"Artist": 2},
+		"culture": 3,
+		"uniques": [
+			// TODO: "[+1 Happiess] per 5% Culture rate",
+			"[+1 Happiness] <with [Horses]>"
+		],
+		"requiredTech": "Drama"
+	},
+
+	{
+		"name": "Stele",
+		"uniqueTo": "Ethiopia",
+		"replaces": "Monument",
+		"cost": 30,
+		"culture": 1,
+		"uniques": [
+			"Obsolete with [Astronomy]",
+			"[+25]% [Culture]"
+		],
+		"requiredTech": "Mysticism"
+	},
+
+	{
+		"name": "Rathaus",
+		"uniqueTo": "Holy Rome",
+		"replaces": "Courthouse",
+		"specialistSlots": {"Spy": 1},
+		"cost": 120,
+		"uniques": [
+			"[-75]% maintenance cost for buildings [in this city]"
+			// TODO: +2 Espionage
+		],
+		"requiredTech": "Code of Laws"
+	},
+
+	{
+		"name": "Baray",
+		"uniqueTo": "Khmer",
+		"replaces": "Aqueduct",
+		"food": 1,
+		"requiredTech": "Mathematics",
+        "cost": 100,
+        "uniques": [
+			"Provides [+2] [Health] <in this city>",
+			"Only available <after discovering [Masonry]>"
+		]
+	},
+
+	{
+		"name": "Ball Court",
+		"uniqueTo": "Maya",
+		"replaces": "Colosseum",
+		"cost": 80,
+		"happiness": 3,
+		"requiredTech": "Construction",
+		"uniques": [
+			// TODO: +1 Happiness per 20% Culture rate
+		]
+	},
+
+	{
+		"name": "Totem Pole",
+		"uniqueTo": "Native America",
+		"replaces": "Monument",
+		"culture": 1,
+		"cost": 30,
+		"requiredTech": "Mysticism",
+		"uniques": [
+			"New [Archery] units start with [3] Experience [in this city]",
+			"Obsolete with [Astronomy]"
+		]
+	},
+
+	{
+		"name": "Dike",
+		"uniqueTo": "Netherlands",
+		"replaces": "Levee",
+		"cost": 180,
+		"uniques": [
+			"Must be on [River]",
+			"Only available <in [Coastal] cities>",
+			"[+1 Production] from [River] tiles [in this city]",
+			"[+1 Production] from [Water] tiles [in this city]"
+		],
+		"requiredTech": "Steam Power"
+	},
+
+	{
+		"name": "Feitoria",
+		"uniqueTo": "Portugal",
+		"replaces": "Customs House",
+		"requiredBuilding": "Harbor",
+		"cost": 180,
+		"uniques": [
+			"[+1 Gold] from each Trade Route", // +100% commerce from intercontinental foreign trade routes
+			"Only available <in [Coastal] cities>",
+			"[+1 Gold] from [Water] tiles [in this city]"
+		],
+		"requiredTech": "Economics"
+	},
+
+	{
+		"name": "Ziggurat",
+		"uniqueTo": "Sumeria",
+		"replaces": "Courthouse",
+		"cost": 90,
+		"uniques": [
+			"[-50]% maintenance cost for buildings [in this city]"
+			// TODO: +2 Espionage
+		],
+		"specialistSlots": {"Spy": 1},
+		"requiredTech": "Priesthood"
+	}
 ]
