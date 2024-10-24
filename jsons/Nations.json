@@ -4,6 +4,8 @@
 		"name": "Babylon",
 		"leaderName": "Hammurabi",
 
+		"startIntroPart1": "The sun rises. Since time immemorial, the Babylonian people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		// Diplomacy
 		"defeated": "The Babylonian Civilization has been destroyed!!!",
 
@@ -94,6 +96,8 @@
 		"name": "Byzantium",
 		"leaderName": "Justinian I",
 
+		"startIntroPart1": "The sun rises. Since time immemorial, the Byzantine people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		// Diplomacy
 		"defeated": "The Byzantine Civilization has been destroyed!!!",
 
@@ -180,6 +184,8 @@
 	{
 		"name": "Ethiopia",
 		"leaderName": "Zara Yaqob",
+
+		"startIntroPart1": "The sun rises. Since time immemorial, the Ethiopian people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
 		// Diplomacy
 		"defeated": "The Ethiopian Civilization has been destroyed!!!",
@@ -269,6 +275,8 @@
 	{
 		"name": "Holy Rome",
 		"leaderName": "Charlemagne",
+
+		"startIntroPart1": "The sun rises. Since time immemorial, the Holy Roman people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
 		// Diplomacy
 		"defeated": "The Holy Roman Civilization has been destroyed!!!",
@@ -362,6 +370,8 @@
 		"name": "Khmer",
 		"leaderName": "Suryavarman II",
 
+		"startIntroPart1": "The sun rises. Since time immemorial, the Khmer people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		// Diplomacy
 		"defeated": "The Khmer Civilization has been destroyed!!!",
 
@@ -446,6 +456,8 @@
 	{
 		"name": "Maya",
 		"leaderName": "Pacal II",
+
+		"startIntroPart1": "The sun rises. Since time immemorial, the Mayan people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
 		// Diplomacy
 		"defeated": "The Mayan Civilization has been destroyed!!!",
@@ -535,26 +547,28 @@
 		"name": "Native America",
 		"leaderName": "Sitting Bull",
 
-	// Diplomacy
-	"defeated": "The Native American Civilization has been destroyed!!!",
+		"startIntroPart1": "The sun rises. Since time immemorial, the Native American people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
-	// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
-	"introduction": "The great Native American people welcome you.\nWould it be politically correct to offer you a peace-pipe?",
+		// Diplomacy
+		"defeated": "The Native American Civilization has been destroyed!!!",
 
-	// AI_DIPLO_DECLARE_WAR_10: We've has had enough of your treachery and deceit! Now you must pay!
-	"declaringWar": "We've has had enough of your treachery\nand deceit! Now you must pay!",
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "The great Native American people welcome you.\nWould it be politically correct to offer you a peace-pipe?",
 
-	// AI_DIPLO_HELP_REFUSED_EQUAL_5: You foolish person.
-	"attacked": "You foolish person.",
+		// AI_DIPLO_DECLARE_WAR_10: We've has had enough of your treachery and deceit! Now you must pay!
+		"declaringWar": "We've has had enough of your treachery\nand deceit! Now you must pay!",
 
-	// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
-	"neutralHello": "Welcome, my friend! You are indeed wise\nto seek the council of your betters.",
+		// AI_DIPLO_HELP_REFUSED_EQUAL_5: You foolish person.
+		"attacked": "You foolish person.",
 
-	// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
-	"hateHello": "What could you possibly say that would be of\neven the slightest interest to me?",
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "Welcome, my friend! You are indeed wise\nto seek the council of your betters.",
 
-	// AI_DIPLO_FR_OFFER_DEAL_5: My friend, can I tempt you with this offer?
-	"tradeRequest": "My friend, can I tempt you with this offer?",
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "What could you possibly say that would be of\neven the slightest interest to me?",
+
+		// AI_DIPLO_FR_OFFER_DEAL_5: My friend, can I tempt you with this offer?
+		"tradeRequest": "My friend, can I tempt you with this offer?",
 
 		"outerColor": [145, 105, 50],
 		"innerColor": [11, 11, 13],
@@ -630,6 +644,8 @@
 	{
 		"name": "Netherlands",
 		"leaderName": "Willem van Oranje",
+
+		"startIntroPart1": "The sun rises. Since time immemorial, the Dutch people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
 		// Diplomacy
 		"defeated": "The Dutch Civilization has been destroyed!!!",
@@ -723,6 +739,8 @@
 		"name": "Portugal",
 		"leaderName": "Joao II",
 
+		"startIntroPart1": "The sun rises. Since time immemorial, the Portugese people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		// Diplomacy
 		"defeated": "The Portuguese Civilization has been destroyed!!!",
 
@@ -770,6 +788,8 @@
 	{
 		"name": "Sumeria",
 		"leaderName": "Gilgamesh",
+
+		"startIntroPart1": "The sun rises. Since time immemorial, the Sumerian people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
 		// Diplomacy
 		"defeated": "The Sumerian Civilization has been destroyed!!!",
