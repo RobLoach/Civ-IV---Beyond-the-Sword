@@ -153,6 +153,16 @@
 	// Overrides
 
 	{
+		"name": "Stable",
+		"cost": 60,
+		"uniques": [
+			"New [Mounted] units start with [2] Experience [in this city]",
+			"Obsolete with [Advanced Flight]"
+		],
+		"requiredTech": "Horseback Riding"
+	},
+
+	{
 		"name": "Laboratory",
 		"cost": 250,
 		"specialistSlots": {"Scientist": 1},
