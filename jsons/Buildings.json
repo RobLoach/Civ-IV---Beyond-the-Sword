@@ -2,7 +2,7 @@
 	// Buildings
 
 	{
-		"name": "Intelligence Agency",
+		"name": "National Intelligence Agency", // "Intelligence Agency" in Civ 4, but we name it the Civ 5 name.
 		"cost": 180,
 		"specialistSlots": {"Spy": 2},
         "uniques": [
