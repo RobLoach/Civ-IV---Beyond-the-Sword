@@ -29,17 +29,18 @@
 
 		"outerColor": [145, 9, 154],
 		"innerColor": [250, 205, 17],
+		"uniqueName": "Aggressive and Organized",
 		"uniques": [
 			"Starts with [The Wheel]",
 			"Starts with [Agriculture]",
 
-			"Comment [Aggressive]",
+			//"Comment [Aggressive]",
 			"All newly-trained [Sword] units [in your cities] receive the [Combat I] promotion",
 			"All newly-trained [Gunpowder] units [in your cities] receive the [Combat I] promotion",
 			"[+100]% Production when constructing [Barracks] buildings [in your cities]",
 			"[+100]% Production when constructing [Drydock] buildings [in your cities]",
 
-			"Comment [Organized]",
+			//"Comment [Organized]",
 			"[+1 Gold] [in your cities]", // TODO: Civic upkeep reduced by 50 %
 			"[+100]% Production when constructing [Lighthouse] buildings [in your cities]",
 			"[+100]% Production when constructing [Factory] buildings [in your cities]",
@@ -121,14 +122,15 @@
 
 		"outerColor": [103, 100, 104],
 		"innerColor": [247, 188, 5],
+		"uniqueName": "Spiritual and Imperialistic",
 		"uniques": [
 			"Starts with [The Wheel]", "Starts with [Mysticism]",
 
-			"Comment [Spiritual]",
+			//"Comment [Spiritual]",
 			// There is no anarchy when changing a civic
 			"[+100]% Production when constructing [Temple] buildings [in your cities]",
 
-			"Comment [Imperialistic]",
+			//"Comment [Imperialistic]",
 			"[Great General] is earned [+100]% faster <if [Civ IV Warlords] is enabled>",
 			"[+100]% Production when constructing [Settler] units [in your cities]"
 		],
@@ -210,14 +212,15 @@
 
 		"outerColor": [124, 182, 98],
 		"innerColor": [27, 90, 50],
+		"uniqueName": "Creative and Organized",
 		"uniques": [
 			"Starts with [Hunting]", "Starts with [Mining]",
 
-			"Comment [Creative]",
+			//"Comment [Creative]",
 			"[+100]% Production when constructing [Theatre] buildings [in your cities]",
 			"[+100]% Production when constructing [Colosseum] buildings [in your cities]",
 
-			"Comment [Organized]",
+			//"Comment [Organized]",
 			"[+1 Gold] [in your cities]", // TODO: Civic upkeep reduced by 50 %
 			"[+100]% Production when constructing [Lighthouse] buildings [in your cities]",
 			"[+100]% Production when constructing [Factory] buildings [in your cities]",
@@ -301,14 +304,15 @@
 
 		"outerColor": [222, 207, 67],
 		"innerColor": [46, 43, 45],
+		"uniqueName": "Imperialistic and Protective",
 		"uniques": [
 			"Starts with [Hunting]", "Starts with [Mysticism]",
 
-			"Comment [Imperialistic]",
+			//"Comment [Imperialistic]",
 			"[Great General] is earned [+100]% faster <if [Civ IV Warlords] is enabled>",
 			"[+100]% Production when constructing [Settler] units [in your cities]",
 
-			"Comment [Protective]",
+			//"Comment [Protective]",
 			"All newly-trained [Archery] units [in your cities] receive the [Drill I] promotion",
 			"All newly-trained [Gunpowder] units [in your cities] receive the [Drill I] promotion",
 			"All newly-trained [Archery] units [in your cities] receive the [City Garrison I] promotion",
@@ -395,14 +399,15 @@
 
 		"outerColor": [16, 45, 152],
 		"innerColor": [229, 99, 103],
+		"uniqueName": "Creative and Expansive",
 		"uniques": [
 			"Starts with [Hunting]", "Starts with [Mining]",
 
-			"Comment [Creative]",
+			//"Comment [Creative]",
 			"[+100]% Production when constructing [Theatre] buildings [in your cities]",
 			"[+100]% Production when constructing [Colosseum] buildings [in your cities]",
 
-			"Comment [Expansive]",
+			//"Comment [Expansive]",
 			"Provides [+2] [Health] <in [City center] tiles>",
 			"[+25]% Production when constructing [Worker] units [in your cities]",
 			"[+100]% Production when constructing [Granary] buildings [in your cities]",
@@ -482,16 +487,17 @@
 
 		"outerColor": [70, 184, 203],
 		"innerColor": [73, 26, 17],
+		"uniqueName": "Expansive and Financial",
 		"uniques": [
 			"Starts with [Mysticism]", "Starts with [Mining]",
 
-			"Comment [Expansive]",
+			//"Comment [Expansive]",
 			"Provides [+2] [Health] <in [City center] tiles>",
 			"[+25]% Production when constructing [Worker] units [in your cities]",
 			"[+100]% Production when constructing [Granary] buildings [in your cities]",
 			"[+100]% Production when constructing [Harbor] buildings [in your cities]",
 
-			"Comment [Financial]",
+			//"Comment [Financial]",
 			"[+1 Gold] [in your cities]", // +1 Coin on squares with 2 or more Coin
 			"[+100]% Production when constructing [Bank] buildings [in your cities]"
 		],
@@ -572,14 +578,15 @@
 
 		"outerColor": [145, 105, 50],
 		"innerColor": [11, 11, 13],
+		"uniqueName": "Philosophical and Protective",
 		"uniques": [
 			"Starts with [Fishing]", "Starts with [Agriculture]",
 
-			"Comment [Philosophical]",
+			//"Comment [Philosophical]",
 			"[+100]% Great Person generation [in your cities]",
 			"[+100]% Production when constructing [University] buildings [in your cities]",
 
-			"Comment [Protective]",
+			//"Comment [Protective]",
 			"All newly-trained [Archery] units [in your cities] receive the [Drill I] promotion",
 			"All newly-trained [Gunpowder] units [in your cities] receive the [Drill I] promotion",
 			"All newly-trained [Archery] units [in your cities] receive the [City Garrison I] promotion",
@@ -670,14 +677,15 @@
 
 		"outerColor": [223, 58, 8],
 		"innerColor": [17, 12, 20],
+		"uniqueName": "Creative and Financial",
 		"uniques": [
 			"Starts with [Fishing]", "Starts with [Agriculture]",
 
-			"Comment [Creative]",
+			//"Comment [Creative]",
 			"[+100]% Production when constructing [Theatre] buildings [in your cities]",
 			"[+100]% Production when constructing [Colosseum] buildings [in your cities]",
 
-			"Comment [Financial]",
+			//"Comment [Financial]",
 			"[+1 Gold] [in your cities]", // +1 Coin on squares with 2 or more Coin
 			"[+100]% Production when constructing [Bank] buildings [in your cities]"
 		],
@@ -763,16 +771,17 @@
 
 		"outerColor": [26, 59, 22],
 		"innerColor": [213, 98, 90],
+		"uniqueName": "Expansive and Imperialistic",
 		"uniques": [
 			"Starts with [Fishing]", "Starts with [Mining]",
 
-			"Comment [Expansive]",
+			//"Comment [Expansive]",
 			"Provides [+2] [Health] <in [City center] tiles>",
 			"[+25]% Production when constructing [Worker] units [in your cities]",
 			"[+100]% Production when constructing [Granary] buildings [in your cities]",
 			"[+100]% Production when constructing [Harbor] buildings [in your cities]",
 
-			"Comment [Imperialistic]",
+			//"Comment [Imperialistic]",
 			"[Great General] is earned [+100]% faster <if [Civ IV Warlords] is enabled>",
 			"[+100]% Production when constructing [Settler] units [in your cities]"
 		],
@@ -814,14 +823,15 @@
 
 		"outerColor": [76, 0, 153],
 		"innerColor": [254, 125, 20],
+		"uniqueName": "Creative and Protective",
 		"uniques": [
 			"Starts with [Agriculture]", "Starts with [The Wheel]",
 
-			"Comment [Creative]",
+			//"Comment [Creative]",
 			"[+100]% Production when constructing [Theatre] buildings [in your cities]",
 			"[+100]% Production when constructing [Colosseum] buildings [in your cities]",
 
-			"Comment [Protective]",
+			//"Comment [Protective]",
 			"All newly-trained [Archery] units [in your cities] receive the [Drill I] promotion",
 			"All newly-trained [Gunpowder] units [in your cities] receive the [Drill I] promotion",
 			"All newly-trained [Archery] units [in your cities] receive the [City Garrison I] promotion",
