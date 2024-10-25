@@ -6,7 +6,7 @@
 		"cost": 180,
 		"specialistSlots": {"Spy": 2},
         "uniques": [
-			"Hidden when espionage is disabled"
+			"Only available <when espionage is enabled>"
 			// TODO: +8 Espionage
 			// TODO: +50% Espionage
 		],
@@ -181,7 +181,7 @@
 		"cost": 1200,
 		"uniques": [
 			// TODO: Require 1-5 required for space race
-			"Hidden when [Scientific] Victory is disabled",
+			"Only available <when [Scientific] Victory is enabled>",
 			"[-50]% production cost <with [Aluminum]>",
 			"Spaceship part",
 			"Cannot be purchased",
@@ -348,7 +348,7 @@
 		"cost": 500,
 		"isWonder": false,
 		"uniques": [
-			"Hidden when espionage is disabled",
+			"Only available <when espionage is enabled>",
 			"Unbuildable",
 			"Cannot be hurried",
 			"Cannot be purchased"
