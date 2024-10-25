@@ -8,7 +8,7 @@
 				"row": 2,
 				"cost": 300,
 				"prerequisites": ["Writing"],
-				"quote": "'Art for Art's sake is an empty phrase. Art for the sake of truth, art for the sake of the good and the beautiful, that is the faith I am searching for.' - George Sand"
+				"quote": "\"Art for Art's sake is an empty phrase. Art for the sake of truth, art for the sake of the good and the beautiful, that is the faith I am searching for.\" - George Sand"
 			}
 		]
 	},
@@ -70,7 +70,7 @@
 				"row": 16,
 				"cost": 2000,
 				"prerequisites": ["Chemistry"],
-				"quote": "'I must study politics and war that my sons may have liberty to study mathematics and philosophy.' - John Adams"
+				"quote": "\"I must study politics and war that my sons may have liberty to study mathematics and philosophy.\" - John Adams"
 			}
 		]
 	},
@@ -101,7 +101,7 @@
 				"row": 2,
 				"cost": 5000,
 				"prerequisites": ["Satellites", "Flight"],
-				"quote": "'Oh! I have slipped the surly bonds of Earth, put out my hand and touched the face of God.' - John Gillespie Magee"
+				"quote": "\"Oh! I have slipped the surly bonds of Earth, put out my hand and touched the face of God.\" - John Gillespie Magee"
 			},
 
 			{
@@ -109,7 +109,7 @@
 				"row": 11,
 				"cost": 5000,
 				"prerequisites": ["Satellites", "Plastics"],
-				"quote": "'Nothing travels faster than the speed of light with the possible exception of bad news, which obeys its own special laws.' - Douglas Adams"
+				"quote": "\"Nothing travels faster than the speed of light with the possible exception of bad news, which obeys its own special laws.\" - Douglas Adams"
 			},
 
 			{
@@ -131,7 +131,7 @@
 					"Comment [Requires Refrigeration or Computers]",
 					"Unavailable <before discovering [Refrigeration]> <before discovering [Computers]> <hidden from users>"
 				],
-				"quote": "'Nothing travels faster than the speed of light with the possible exception of bad news, which obeys its own special laws.' - Douglas Adams"
+				"quote": "\"Nothing travels faster than the speed of light with the possible exception of bad news, which obeys its own special laws.\" - Douglas Adams"
 			}
 		]
 	},
@@ -145,7 +145,7 @@
 				"row": 3,
 				"cost": 8000,
 				"prerequisites": ["Composites", "Advanced Flight"],
-				"quote": "'Behind a veil, unseen yet present, I was the forceful soul that moved this mighty body.' - Jean Racine"
+				"quote": "\"Behind a veil, unseen yet present, I was the forceful soul that moved this mighty body.\" - Jean Racine"
 			}
 		]
 	},
@@ -159,7 +159,7 @@
 				"row": 3,
 				"cost": 8000,
 				"prerequisites": ["Stealth", "Genetics"],
-				"quote": "'The future will be better tomorrow.' - Dan Quayle"
+				"quote": "\"The future will be better tomorrow.\" - Dan Quayle"
 			}
 		]
 	}
