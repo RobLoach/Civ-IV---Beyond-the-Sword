@@ -65,6 +65,7 @@
 	{
 		"name": "Statue of Zeus",
 		"cost": 300,
+		"maintenance": 2,
 		"isWonder": true,
 		"culture": 10,
 		"greatPersonPoints": {"Great Artist": 2},
@@ -80,6 +81,7 @@
 	{
 		"name": "Mausoleum of Maussollos",
 		"cost": 450,
+		"maintenance": 2,
 		"isWonder": true,
 		"culture": 2,
 		"greatPersonPoints": {"Great Artist": 2},
@@ -107,6 +109,7 @@
 	{
 		"name": "Shwedagon Paya",
 		"cost": 450,
+		"maintenance": 2,
 		"isWonder": true,
 		"culture": 8,
 		"greatPersonPoints": {"Great Prophet": 2},
