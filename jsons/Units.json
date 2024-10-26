@@ -502,6 +502,7 @@
 			"Commando"
 		],
 		"uniques": [
+			"Only available <when espionage is enabled>",
 			"Invisible to others",
 			"Can see invisible [Spy] units",
 			"May enter foreign tiles without open borders",
