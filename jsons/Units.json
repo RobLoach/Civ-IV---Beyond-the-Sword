@@ -106,14 +106,14 @@
 		"rangedStrength": 150,
 		"range": 50,
 		"cost": 250,
-		"requiredTech": "Rocketry",
+		"requiredTech": "Fission",
 		"requiredResource": "Uranium", // TODO: Is Uranium consumed?
 		"uniques": [
-			"Only available <after discovering [Fission]>",
+			"Only available <after discovering [Rocketry]>",
 			"Nuclear weapon of Strength [1]",
 			"Never appears as a Barbarian unit",
 			"Withdraws before melee combat <with [50]% chance>",
-			"Only available <if [The Manhattan Project] is constructed by anybody>",
+			"Only available <if [Manhattan Project] is constructed by anybody>",
 			"Blast radius [3]"
 		],
 		"attackSound": "nuke"
