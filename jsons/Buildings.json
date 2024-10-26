@@ -121,10 +121,22 @@
 		"greatPersonPoints": {"Great Prophet": 2},
 		"uniques": [
 			"Only available <after discovering [Meditation]>",
-			"[-50]% production cost <with [Gold Ore]>"
-			// TODO: Enables all religious civics
+			"[-50]% production cost <with [Gold Ore]>",
+			"Comment [Enables all Religious civics]",
+			"Free Social Policy <hidden from users>",
+			"Remove [Paganism] <hidden from users>",
+			"Remove [Organized Religion] <hidden from users>",
+			"Remove [Theocracy] <hidden from users>",
+			"Remove [Pacifism] <hidden from users>",
+			"Remove [Free Religion] <hidden from users>"
 		],
-		"requiredTech": "Aesthetics"
+		"requiredTech": "Aesthetics",
+		"civilopediaText": [
+			{
+				"text": "Enables all Religious civics",
+				"link": "Policies/Religion"
+			}
+		]
 	},
 
 	// National Wonders
