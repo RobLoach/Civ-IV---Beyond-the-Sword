@@ -4,6 +4,7 @@
 	{
 		"name": "National Intelligence Agency", // "Intelligence Agency" in Civ 4, but we name it the Civ 5 name.
 		"cost": 180,
+		"maintenance": 1,
 		"specialistSlots": {"Spy": 2},
         "uniques": [
 			"Only available <when espionage is enabled>"
@@ -16,6 +17,7 @@
 	{
 		"name": "Public Transportation",
 		"cost": 150,
+		"maintenance": 1,
         "uniques": [
             "Provides [1] [Health] <in this city>",
             "Provides [1] [Health] <in this city> <with [Oil]>",
@@ -27,6 +29,7 @@
 	{
 		"name": "Industrial Park",
 		"cost": 200,
+		"maintenance": 1,
 		"production": 2, // 1 Free Engineer
 		"greatPersonPoints": {"Great Engineer": 3}, // 1 Free Engineer
 		"specialistSlots": {"Engineer": 2},
@@ -42,6 +45,7 @@
 	{
 		"name": "Levee",
 		"cost": 180,
+		"maintenance": 1,
 		"uniques": [
 			"Must be on [River]",
 			"[+1 Production] from [River] tiles [in this city]"
@@ -53,6 +57,7 @@
 		"name": "Customs House",
 		"requiredBuilding": "Harbor",
 		"cost": 180,
+		"maintenance": 1,
 		"uniques": [
 			"[+1 Gold] from each Trade Route", // +100% commerce from intercontinental foreign trade routes
 			"Only available <in [Coastal] cities>"
@@ -95,6 +100,7 @@
 	{
 		"name": "Cristo Redentor",
 		"cost": 1000,
+		"maintenance": 3,
 		"isWonder": true,
 		"culture": 5,
 		"greatPersonPoints": {"Great Engineer": 2},
@@ -126,6 +132,7 @@
 	{
 		"name": "Moai Statues",
 		"cost": 250,
+		"maintenance": 1,
 		"isNationalWonder": true,
 		"culture": 2,
 		"greatPersonPoints": {"Great Prophet": 1},
@@ -140,6 +147,7 @@
 	{
 		"name": "National Park",
 		"cost": 300,
+		"maintenance": 2,
 		"isNationalWonder": true,
 		"culture": 3,
 		"greatPersonPoints": {"Great Scientist": 1},
@@ -168,6 +176,7 @@
 	{
 		"name": "Laboratory",
 		"cost": 250,
+		"maintenance": 1,
 		"specialistSlots": {"Scientist": 1},
 		"percentStatBonus": {"science": 25},
         "uniques": [
@@ -182,6 +191,7 @@
 		"name": "SS Thrusters",
 		"isNationalWonder": true,
 		"cost": 1200,
+		"maintenance": 1,
 		"uniques": [
 			// TODO: Require 1-5 required for space race
 			"Only available <when [Scientific] Victory is enabled>",
@@ -201,6 +211,7 @@
 		"uniqueTo": "Babylon",
 		"replaces": "Colosseum",
 		"cost": 80,
+		"maintenance": 1,
 		"happiness": 1,
 		"uniques": [
             "Provides [2] [Health] <in this city>"
@@ -214,6 +225,7 @@
 		"uniqueTo": "Byzantine",
 		"replaces": "Theatre",
 		"cost": 50,
+		"maintenance": 1,
 		"happiness": 1,
 		"specialistSlots": {"Artist": 2},
 		"culture": 3,
@@ -257,6 +269,7 @@
 		"food": 1,
 		"requiredTech": "Mathematics",
         "cost": 100,
+		"maintenance": 1,
         "uniques": [
 			"Provides [+2] [Health] <in this city>",
 			"Only available <after discovering [Masonry]>"
@@ -268,6 +281,7 @@
 		"uniqueTo": "Maya",
 		"replaces": "Colosseum",
 		"cost": 80,
+		"maintenance": 1,
 		"happiness": 3,
 		"requiredTech": "Construction",
 		"uniques": [
@@ -293,6 +307,7 @@
 		"uniqueTo": "Netherlands",
 		"replaces": "Levee",
 		"cost": 180,
+		"maintenance": 1,
 		"uniques": [
 			"Must be on [River]",
 			"Only available <in [Coastal] cities>",
@@ -334,6 +349,7 @@
 		"uniqueTo": "Russia",
 		"replaces": "Laboratory",
 		"cost": 250,
+		"maintenance": 1,
 		"science": 6,  // +2 Free Scientists
 		"greatPersonPoints": {"Great Scientist": 6}, // +2 Free Scientists
 		"specialistSlots": {"Scientist": 1},
@@ -349,7 +365,9 @@
 	{
 		"name": "Scotland Yard",
 		"cost": 500,
+		"maintenance": 1,
 		"isWonder": false,
+		"isNationalWonder": true,
 		"uniques": [
 			"Only available <when espionage is enabled>",
 			"Unbuildable",
