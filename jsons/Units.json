@@ -100,7 +100,7 @@
 
 	{
 		"name": "Tactical Nuke",
-		"unitType": "Missle",
+		"unitType": "Missile",
 		"strength": 150,
 		"movement": 4,
 		"rangedStrength": 150,
@@ -121,7 +121,7 @@
 
 	{
 		"name": "Guided Missile",
-		"unitType": "Missle",
+		"unitType": "Missile",
 		"strength": 40,
 		"movement": 4,
 		"rangedStrength": 40,
@@ -176,7 +176,7 @@
 			"[+50]% Strength <vs [Helicopter] units>",
 			"Only available <with [Oil]>"
 		],
-		"attackSound": "missle"
+		"attackSound": "missile"
 	},
 
 	{
@@ -198,7 +198,7 @@
 			"Can pass through impassable tiles",
 			"Only available <with [Uranium]>"
 		],
-		"attackSound": "missle"
+		"attackSound": "missile"
 	},
 
 	{
@@ -209,7 +209,7 @@
 		"cost": 260,
 		"requiredTech": "Robotics",
 		"uniques": [
-			"Can carry [4] [Missle] units",
+			"Can carry [4] [Missile] units",
 			// Causes collateral damage
 			"[+40]% Strength <vs cities> <when attacking>", // Can bombard city defenses (-20%/turn)
 			"Unavailable <without [Uranium]> <without [Oil]> <hidden from users>"
@@ -224,7 +224,7 @@
 				"link": "Resources/Oil"
 			}
 		],
-		"attackSound": "missle"
+		"attackSound": "missile"
 	},
 
 	{
@@ -251,7 +251,7 @@
 				"link": "Resources/Oil"
 			}
 		],
-		"attackSound": "missle"
+		"attackSound": "missile"
 	},
 
 	{
