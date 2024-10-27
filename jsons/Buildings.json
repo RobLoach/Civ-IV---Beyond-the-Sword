@@ -368,7 +368,8 @@
 		"percentStatBonus": {"science": 25},
         "uniques": [
             "Provides [-1] [Health] <in this city>",
-			"[+50]% Production when constructing [Spaceship part] buildings [in this city]"
+			"[+50]% Production when constructing [Spaceship part] buildings [in this city]",
+			"Only available <if [Civ IV Warlords] is enabled>"
         ],
 		"requiredTech": "Superconductors",
 		"requiredBuilding": "Observatory"
