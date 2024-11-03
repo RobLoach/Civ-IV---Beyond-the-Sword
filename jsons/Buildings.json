@@ -164,11 +164,53 @@
 		"culture": 3,
 		"greatPersonPoints": {"Great Scientist": 1},
 		"uniques": [
-            // TODO: +1 free specialist for each Forest Preserve under this city's control
-			// TODO: No unhealthiness Unhealthiness (Civ4) from population in this city
-			// Removes access to Coal Coal (Civ4) for this city
-			"Unavailable",
-			"Will not be displayed in Civilopedia"
+			// TODO: "Comment [Remove access to Coal for this city]",
+			"Provides [-1] [Coal] <with [Coal]>",
+
+			// +1 free specialist for each Forest Preserve under this city's control
+			"[+1 Gold, +1 Production, +1 Culture] from [Forest Preserve] tiles [in this city]",
+
+			"Comment [No Unhealthiness from population in this city]",
+			"Provides [1] [Health] <in cities with at least [1] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [2] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [3] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [4] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [5] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [6] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [7] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [8] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [9] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [10] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [11] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [12] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [13] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [14] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [15] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [16] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [17] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [18] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [19] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [20] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [21] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [22] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [23] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [24] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [25] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [26] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [27] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [28] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [29] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [30] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [31] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [32] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [33] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [34] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [35] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [36] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [37] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [38] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [39] [Population]> <in this city> <hidden from users>",
+			"Provides [1] [Health] <in cities with at least [40] [Population]> <in this city> <hidden from users>"
 		],
 		"requiredTech": "Biology"
 	},
@@ -192,7 +234,7 @@
 		"specialistSlots": {"Scientist": 1},
 		"percentStatBonus": {"science": 25},
         "uniques": [
-            "Provides [-1] [Health] <in this city>",
+			"Provides [-1] [Health] <in this city>",
 			"[+50]% Production when constructing [Spaceship part] buildings [in this city]"
         ],
 		"requiredTech": "Superconductors", // BTS
@@ -367,7 +409,7 @@
 		"specialistSlots": {"Scientist": 1},
 		"percentStatBonus": {"science": 25},
         "uniques": [
-            "Provides [-1] [Health] <in this city>",
+			"Provides [-1] [Health] <in this city>",
 			"[+50]% Production when constructing [Spaceship part] buildings [in this city]",
 			"Only available <if [Civ IV Warlords] is enabled>"
         ],
