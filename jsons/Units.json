@@ -533,5 +533,20 @@
 			"Only available <with [Oil]>"
 		],
 		"attackSound": "machinegun"
+	},
+
+	{
+		"name": "Grenadier",
+		"unitType": "Gunpowder",
+		"strength": 12,
+		"movement": 1,
+		"cost": 100,
+		"requiredTech": "Military Science",
+		"uniques": [
+			"[+50]% Strength <vs [Rifleman] units> <when attacking>",
+			"Can upgrade to [Machine Gun]",
+			"Can upgrade to [Infantry]"
+		],
+		"attackSound": "shot"
 	}
 ]
