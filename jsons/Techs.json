@@ -37,7 +37,7 @@
 				"row": 4,
 				"prerequisites": ["Aesthetics"],
 				"uniques": [
-					// TODO: Can Adjust Culture Rate in Cities
+					"Enables conversion of city production to [Culture]" // Enables the culture slider
 				],
 				"quote": "\"All the world's a stage, And all the men and women merely players: They have their exits and their entrances; And one man in his time plays many parts.\" - William Shakespeare"
 			}
