@@ -276,7 +276,7 @@
 
 	{
 		"name": "Hippodrome",
-		"uniqueTo": "Byzantine",
+		"uniqueTo": "Byzantium",
 		"replaces": "Theatre",
 		"cost": 50,
 		"maintenance": 1,

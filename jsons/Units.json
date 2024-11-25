@@ -315,7 +315,7 @@
 	{
 		"name": "Cataphract",
 		"replaces": "Knight",
-		"uniqueTo": "Byzantine",
+		"uniqueTo": "Byzantium",
 		"unitType": "Mounted",
 		"strength": 12,
 		"movement": 2,
