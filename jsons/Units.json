@@ -187,6 +187,7 @@
 		"cost": 180,
 		"requiredTech": "Rocketry",
 		"uniques": [
+			"Can only attack [Water] tiles",
 			"Only available <after discovering [Radio]>",
 			"Only available <after discovering [Combustion]>",
 			"[+50]% Strength <vs [Submarine] units>",
