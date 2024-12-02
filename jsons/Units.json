@@ -197,6 +197,7 @@
 			"Invisible to others",
 			"Can see invisible [Submarine] units",
 			"Can pass through impassable tiles",
+			"Withdraws before melee combat <with [50]% chance>",
 			"Only available <with [Uranium]>"
 		],
 		"attackSound": "missile"
