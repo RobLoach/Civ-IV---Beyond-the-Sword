@@ -363,8 +363,7 @@
 		"cost": 180,
 		"maintenance": 1,
 		"uniques": [
-			"Must be on [River]",
-			"Only available <in [Coastal] cities>",
+			"Unavailable <in tiles without [Coastal]> <in tiles without [River]>",
 			"[+1 Production] from [River] tiles [in this city]",
 			"[+1 Production] from [Water] tiles [in this city]"
 		],
